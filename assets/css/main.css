@@ -108,7 +108,6 @@ a:hover {
 	padding: 14px 0;
 	background-color: #EE3041;
 	font-size: 100%;
-	box-shadow: 1px 1px 10px #666;
 	opacity: 0.95;
 	z-index: 1;
 }	
@@ -117,9 +116,9 @@ a:hover {
 	#main ul { margin-left: 0; float: right; }
 	.menu li, .burger li   { display: inline; list-style-type: none; color: #000; }
 	#main .label { display: none; text-transform: uppercase; }
-	#main a { padding: 18px 10px; }
+	#main a { padding: 17px 10px; }
 	#main a:hover { background-color: #9b101d; text-decoration: none; }
-	#main a:link, #main a:active, #main a:visited { color: #fff; }
+	#main a:link, #main a:active, #main a:visited { color: #E9E9E9; }
 	.burger{ display: none; }
 
 @media screen and (max-width: 650px) {
@@ -162,8 +161,7 @@ footer {
 	padding: 14px 0;
 	background-color: #ee3a4a;
 	font-size: 75%;
-	color: #fff;
-	text-transform: uppercase;
+	color: #E9E9E9;
 	text-align: center;
 	margin-top: 25px;
 }
