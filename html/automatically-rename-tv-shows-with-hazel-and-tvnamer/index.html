@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+  
+    <title>Robb Lewis &raquo; Automatically Rename TV Shows with Hazel and TVNamer</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta description="Robb Lewis developer in Portsmouth, UK. Blogs about technology, development and the web.">
+    
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
+    
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+
+    
+    
+  </head>
+  
+  <body>
+    
+    <a href='https://alpha.app.net/rmlewisuk' rel='me' style="display: none">@rmlewisuk</a>
+    
+      <nav id="main">
+      <div class="wrap">
+        <a class="site-title" href="/">Robb Lewis</a>
+    
+        <ul class="burger">
+          <li><a href="#">&#9776;</a></li>
+        </ul>
+
+        <ul class="menu">
+          <span class="pages">
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </span>
+        </ul>
+      <div>
+    </nav>
+
+    <section class="main">
+    <section class="wrap posts">
+
+	<h1 class="post-header">Automatically Rename TV Shows with Hazel and TVNamer</h1>
+
+	<p class="meta"><span class="icon">*</span> Thursday 08 August, 2013 | 
+		<span class="icon">_</span> <a target="_blank" href="https://twitter.com/intent/tweet?text=Automatically Rename TV Shows with Hazel and TVNamer&amp;url=http://robblewis.me/automatically-rename-tv-shows-with-hazel-and-tvnamer">tweet this article</a> | 
+		<span class="icon">X</span><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me/automatically-rename-tv-shows-with-hazel-and-tvnamer">share on facebook</a>
+	</p>
+
+	
+	
+	<p>I download a lot of TV shows (all legal of course) and have been renaming the files using <a href="https://github.com/tvrenamer/tvrenamer">TVRenamer</a>. After using TVRenamer manually for months I got fed up with having to do it, or the much more likely scenario happened where I would just leave them to build up in my downloads folder. I recently started using <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> to automatically rename and organise my photos. This works well because Hazel simply changes the filename to the date they were taken. TV shows are a little more complex than that as they have season and episode numbers as well as titles. Enter <a href="https://github.com/dbr/tvnamer">TVNamer</a>.</p>
+
+<p>TVNamer is a command line utility that takes a TV episode with an ugly filename (show.name.3x20.720[HD].avi) and changes it to something much more readable (ShowName S03E20 - Episode Title.avi). To install TVNamer follow the simple instructions in the <a href="https://github.com/dbr/tvnamer/blob/master/readme.md">readme</a>, it only takes a couple of minutes. Once it’s installed to can use it by simple typing:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">tvnamer &lt;filename&gt;
+</code></pre></div>
+<p>TVNamer will then parse the file, look for episode information and, if it finds more than one result, will prompt you to choose the correct one and confirm the rename. When I tested this the correct result was always the first one which makes using Hazel to automate the process much easier. </p>
+
+<p>If you’re not familiar with Hazel, it’s a preference pane for Mac that monitors folders and matches files based on rules much like iTunes smart playlists. You can then set actions to perform when your rules are matched such as move files, rename them or run shell scripts.</p>
+
+<p>To setup automatic renaming, open Hazel, select the folder where your TV shows download to, then add a new rule. Obviously rules will entirely depend on the type of files you choose to download but personally I set Hazel to find any files that have the extension <em>mkv</em>, <em>avi</em> or <em>mp4</em>. Then choose to run a shell script on the matched files and choose <em>“embedded script”</em>.</p>
+
+<p><img src="/assets/img/posts/automatically-rename-tv-shows-with-hazel-and-tvnamer-sshot.png" alt="Hazel Screenshot"></p>
+
+<p>Select edit script and paste in the following:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">/usr/local/bin/tvnamer --batch &quot;$1&quot;
+</code></pre></div>
+<p>The <em>–batch</em> option tells TVNamer to automatically choose the first result and rename it and the <em>$1</em> refers to the matched file Hazel found. To test your rule is working select the cog dropdown in the main Hazel screen and select <em>&quot;Run rules now&quot;</em>. Any files that match your Hazel rule should be renamed. </p>
+
+<p>Initially I found that Hazel can sometimes have issues with running TVNamer if you’re matching files within subdirectories of your downloads folder. To remedy this I have Hazel move matched files to another folder and rename them from there. Refer to <a href="http://mac.tutsplus.com/tutorials/app-training/9-hazel-rules-to-increase-your-productivity/">this Tuts+ guide</a> to find out how to use Hazel to move files automatically.</p>
+
+
+	
+
+	<p class="meta">This weblog has no comments. If you want to discuss this post or anything else contact me <a href="http://twitter.com/rmlewisuk">on Twitter (@rmlewisuk)</a> or <a href="/contact">email me</a>.</p>
+
+	<nav id="more-posts">
+		
+    		<a href="/hold-alt-when-resizing-to-center-windows-on-os-x/" title="Previous post">&laquo; Hold Alt When Resizing to Center Windows on OS X</a>
+    	
+    	
+    		<a class="next" href="/instapaper-beta" title="Next post">Instapaper Beta &raquo;</a>
+    	
+  	</nav>
+
+    </section>
+	</section>
+
+    <footer>
+      <div class="wrap">
+		&copy; 2013 Robb Lewis<br>
+		<a href="http://twitter.com/rmlewisuk">Twitter</a> | 
+		<a href="http://github.com/rmlewisuk">Github</a> | 
+		<a href="/rss">Subscribe</a>
+      <div>
+    </footer>
+
+  </body>
+  
+</html>
