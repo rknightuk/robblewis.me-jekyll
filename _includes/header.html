@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+  
+    <title>{{ site.name }} &raquo; {{ page.title }}</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta description="Robb Lewis developer in Portsmouth, UK. Blogs about technology, development and the web.">
+    
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
+    {% if page.style %}
+      <link rel="stylesheet" type="text/css" href="/assets/css/{{page.style}}.css" />
+    {% endif %}
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+
+    {% if page.script %}
+    <script src="/assets/js/{{page.script}}.js"></script>
+    {% endif %}
+    
+  </head>
+  
+  <body>
+    
+    <a href='https://alpha.app.net/rmlewisuk' rel='me' style="display: none">@rmlewisuk</a>
+    
+    {% include nav.html %}
+
+    <section class="main">
+    <section class="wrap posts">

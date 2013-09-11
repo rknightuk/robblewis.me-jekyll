@@ -1,0 +1,57 @@
+---
+layout: page
+title: The Robb Blog
+---
+
+<section class="blog-index">
+{% for post in paginator.posts %}
+<article>
+
+	{% if forloop.first %}
+		{% if paginator.page == 1 %}
+
+			<h2 class="post-header first-post"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="meta first-post">{{ post.date | date: "%A %d %B, %Y" }}<br/>
+			<span class="icon">_</span> <a target="_blank" href="https://twitter.com/intent/tweet?text={{post.title}}&amp;url=http://robblewis.me{{post.permalink}}">tweet this article</a> | 
+			<span class="icon">X</span><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me{{post.permalink}}">share on facebook</a>
+			</p>
+
+			{% if post.featured %}
+				<img src="/assets/img/posts{{ post.permalink }}.png">
+			{% endif %}
+
+			<p>{{ post.content}}</p>
+
+			{% include post-byline.html %}
+		{% else %}
+
+			<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }} &raquo;</a></h2>
+			<p class="meta">{{ post.date | date: "%A %d %B, %Y" }}</p>
+			<p>{{ post.excerpt }}</p>
+
+		{% endif %}
+
+	{% else %}
+
+		<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }} &raquo;</a></h2>
+		<p class="meta">{{ post.date | date: "%A %d %B, %Y" }}</p>
+		<p>{{ post.excerpt }}</p>
+
+	{% endif %}
+
+</article>
+{% endfor %}
+    
+{% if paginator.next_page %} 
+	<a href="/blog/page/{{ paginator.next_page }}/" title="Next Page">&laquo; Older posts</a>
+{% endif %} 
+
+{% if paginator.previous_page %}
+	{% if paginator.previous_page == 1 %}
+		<a class="next" href="/blog" title="Previous Page">Newer posts &raquo;</a>
+	{% else %}
+		<a class="next" href="/blog/page/{{ paginator.previous_page }}/" title="Previous Page">Newer posts &raquo;</a>
+	{% endif %}
+{% endif %}
+
+</section>

@@ -1,0 +1,11 @@
+<section class="latest post">
+
+	{% for post in site.posts limit: 1 %}
+		<h3><span class="icon">*</span> Latest post &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+		<blockquote>
+			<p>{{ post.excerpt }}</p>
+		</blockquote>
+	{% endfor %}
+        
+</section>
