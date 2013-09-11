@@ -25,17 +25,19 @@ title: The Robb Blog
 			{% include post-byline.html %}
 		{% else %}
 
-			<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }} &raquo;</a></h2>
+			<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
 			<p class="meta">{{ post.date | date: "%A %d %B, %Y" }}</p>
 			<p>{{ post.excerpt }}</p>
+			<p><a href="{{post.permalink}}">Read more &raquo;</a></p>
 
 		{% endif %}
 
 	{% else %}
 
-		<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }} &raquo;</a></h2>
+		<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
 		<p class="meta">{{ post.date | date: "%A %d %B, %Y" }}</p>
 		<p>{{ post.excerpt }}</p>
+		<p><a href="{{post.permalink}}">Read more &raquo;</a></p>
 
 	{% endif %}
 

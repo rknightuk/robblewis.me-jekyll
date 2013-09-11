@@ -1,0 +1,10 @@
+---
+title: Referral Links
+layout: page
+---
+
+I wanted to keep these all in one place, so here they are:
+
+- Dropbox: [http://db.tt/y4aAIZ9](http://db.tt/y4aAIZ9)
+- Media Temple: [http://www.mediatemple.net/#a_aid=521a8aefe4c3b](http://www.mediatemple.net/#a_aid=521a8aefe4c3b)
+- GoSquared: [https://www.gosquared.com/r/NjE0MzM4](https://www.gosquared.com/r/NjE0MzM4)
