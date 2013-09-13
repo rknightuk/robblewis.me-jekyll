@@ -185,6 +185,14 @@ footer {
 		border-radius: 5px;
 	}
 
+/* Home page */
+
+.hero {
+	margin-top: 20px;
+	width: 90%;
+}
+
+/* Blog archive */
 .archive {
 	list-style-type: square;
 }
@@ -231,3 +239,23 @@ article {
 		.secondary img { width: 100%; float: none; }
 		.secondary p { margin: 1em 0; }
 	}
+
+/* Portfolio */
+
+.portfolio {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 2px solid #E9E9E9;
+}
+	.portfolio:last-of-type { border-bottom: none; }
+
+/* JDM */
+
+.featured {
+	width: 30%;
+	display: inline-block;
+	padding: 10px 5px;
+	vertical-align: top;
+}
+	@media screen and (max-width: 650px) { .featured { width: 47%; } }
+	@media screen and (max-width: 500px) { .featured { width: 100%; } }
