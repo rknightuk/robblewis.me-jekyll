@@ -6,7 +6,6 @@ $.getJSON("http://twitcher.steer.me/user_timeline/rmlewisuk", function (data) {
 		tweet = urlReplace(data[i].text);
 		tweet = mentionReplace(tweet);
 		time = relative_time(data[i].created_at);
-		console.log(tweet);
 		$('#latest-tweet').append("<a href='https://twitter.com/rmlewisuk/status/" + data[i].id_str + "'>" + time + "</a>");
 		$('#tweet').append(tweet);
 });
