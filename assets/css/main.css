@@ -96,6 +96,7 @@ a:hover {
 .main {
 	padding-top: 10px;
 	overflow: auto;
+	clear: both;
 }
 
 .wrap { max-width: 800px; margin: 0 auto; padding: 0 10px;}
@@ -117,19 +118,21 @@ header nav	{
 	z-index: 1;
 	max-width: 800px;
 	margin: 0 auto;
+	overflow: auto;
 }	
 
-	header nav ul { margin-left: 0; float: right; }
+	header nav ul { margin-left: 0; float: right; display: block; }
 	header nav li   { display: inline; list-style-type: none; color: #000; }
 	header nav .label { display: none; text-transform: uppercase; }
 	header nav a { padding: 17px 10px; }
 	header nav a:hover { background-color: #9b101d; text-decoration: none; }
 	header nav a:link, header nav a:active, header nav a:visited { color: #E9E9E9; }
+	.home { display: none; }
 
 @media screen and (max-width: 650px) {
 
-	
-
+	.site-title { display: none; }
+	.home { display: inline-block; }
 }
 
 .meta   {
