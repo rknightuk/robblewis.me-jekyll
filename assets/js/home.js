@@ -1,4 +1,5 @@
 $.getJSON("http://twitcher.steer.me/user_timeline/rmlewisuk", function (data) {
+    console.log("Getting tweets...");
 	var i = 0, tweet, time;
 	while (data[i].text.indexOf("@") === 0) {
 		i++;
