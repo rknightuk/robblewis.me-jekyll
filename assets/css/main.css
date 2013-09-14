@@ -140,9 +140,15 @@ header nav	{
     font-size: 80%;
 }
 
-    .meta a {
-        color: inherit;
+    .meta a { color: inherit; }
+    .mobile-break { display: none; }
+    .large-divide { display: inline-block; }
+
+    @media screen and (max-width: 650px) {
+    	.mobile-break { display: block; }
+    	.large-divide { display: none; }
     }
+
 
 #more-posts {
 	text-transform: uppercase;

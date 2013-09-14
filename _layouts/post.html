@@ -2,9 +2,10 @@
 
 	<h1 class="post-header">{{ page.title }}</h1>
 
-	<p class="meta"><span class="icon">*</span> {{ page.date | date: "%A %d %B, %Y" }} | 
+	<p class="meta"><span class="icon">*</span> {{ page.date | date: "%A %d %B, %Y" }}<span class="large-divide">&nbsp;| </span><br class="mobile-break"/>
 		<span class="icon">_</span> <a target="_blank" href="https://twitter.com/intent/tweet?text={{page.title}}&amp;url=http://robblewis.me{{page.permalink}}">tweet this article</a> | 
-		<span class="icon">X</span><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me{{page.permalink}}">share on facebook</a>
+		<span class="icon">X</span><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me{{page.permalink}}">share on facebook</a> | 
+		<a href="#" class="focus">focus</a></p>
 	</p>
 
 	{% if page.featured %}
