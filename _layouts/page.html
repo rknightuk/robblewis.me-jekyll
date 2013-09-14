@@ -1,6 +1,6 @@
 {% include header.html %}
 
-<h1 class="post-header">{{ page.title }}</h1>
+<h1 {% if page.title == "The Robb Blog" %}class="post-header"{% endif %}>{{ page.title }}</h1>
 {% if page.title == "The Robb Blog" %}
 <p class="meta"><a href="/blog/archive">View the archive ({{ site.posts | size }} posts) &raquo;</a></p>
 {% endif %}
