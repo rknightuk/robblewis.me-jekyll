@@ -708,3 +708,20 @@
 	font-weight: normal;
 	font-size: 90%;
 }
+
+/* For lists with images in */
+.slide ul.none>li:before
+{
+	content:'';
+	margin-left: 20px;
+}
+
+ul li img {
+	height: 40px;
+	width: auto;
+	vertical-align: middle;
+}
+
+.right {
+	float: right;
+}
