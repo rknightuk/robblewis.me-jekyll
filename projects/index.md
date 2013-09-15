@@ -17,6 +17,10 @@ title: Side projects and resources
 - [The Pros and Cons of Social Networking Sites](the-pros-and-cons-of-social-networking-sites) - This was a literature review I wrote as part of my degree.
 - [My Social Media Rules](social) - A little outline of how I use Twitter/App.net.
 
+## Talks and Presentations
+
+{% include talks-list.html %}
+
 ## Miscellaneous
 
 - [Back to the Future Drinking Game](back-to-the-future-drinking-game) - A drinking game based on the Back to the Future trilogy. Be careful. Seriously.
