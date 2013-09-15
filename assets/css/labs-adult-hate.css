@@ -1,0 +1,14 @@
+.main {
+	background: url('/assets/img/pages/projects/adult-hate.png') top left no-repeat;
+}
+
+#quote {
+	text-align: center;
+	margin-top: 50px;
+	color: #000;
+	font-weight: normal;
+}
+
+p {
+	text-align: center;
+}

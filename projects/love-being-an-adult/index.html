@@ -1,0 +1,51 @@
+---
+layout: page
+title: Things I Love About Being an Adult
+style: labs-adult-love
+---
+
+<h1 id="quote"></h1>
+
+<p class="button"><a href="#" onclick="getQuote(); return false;">Get another</a></p>
+
+<p>I am an adult. Just not a grown up.</p>
+<p><a href="../hate-being-an-adult">Thing I Hate About Being an Adult</a></p>
+
+<section class="share">
+	<div class="fb-like" data-href="http://robblewis.me/projects/love-being-an-adult/" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://robblewis.me/projects/love-being-an-adult" data-via="rmlewisuk">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</section>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+var quotes = [
+	"Crisps for breakfast",
+	"Sweets for dinner",
+	"Leaving a bed unmade",
+	"Ice cream for dinner",
+	"Buying as many sweets as you want",
+	"No one forces you to eat vegatables",
+	"Alcohol",
+	"No bed time",
+	"Tattoos",
+	"Not getting told off for swearing"
+];
+
+function getQuote() {
+	var random = quotes[Math.floor(Math.random() * quotes.length)];
+	document.getElementById("quote").innerHTML = random;
+}
+
+getQuote();
+
+</script>

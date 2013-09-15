@@ -1,17 +1,21 @@
 ---
 layout: page
 title: Things I Hate About Being an Adult
-style: labs-adult
+style: labs-adult-hate
 ---
 
 <h1 id="quote"></h1>
 
-<p class="button"><a href="#" onclick="getQuote()">Get another</p>
+<p class="button"><a href="#" onclick="getQuote(); return false;">Get another</a></p>
+
+<p>I am aware these are first world problems. This is just for fun.</p>
+<p><a href="../love-being-an-adult">Thing I Love About Being an Adult</a></p>
 
 <section class="share">
-	<div class="fb-like" data-href="http://robblewis.me/projects/being-an-adult/" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+	<div class="fb-like" data-href="http://robblewis.me/projects/hate-being-an-adult/" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
 
-	{% include twitter-button.html %}
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://robblewis.me/projects/hate-being-an-adult" data-via="rmlewisuk">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </section>
 
 <div id="fb-root"></div>
@@ -34,13 +38,11 @@ var quotes = [
 	"Changing bedding",
 	"Cleaning",
 	"Food shopping",
-	"Bills",
-	"You have to pay for water?",
+	"Paying bills",
+	"Paying for water",
 	"No six weeks off for summer",
 	"Taking the rubbish out",
 	"Having to buy lightbulbs"
-
-
 ];
 
 function getQuote() {

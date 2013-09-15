@@ -99,6 +99,7 @@ a:hover {
 
 .main {
 	padding-top: 10px;
+	padding-bottom: 25px;
 	overflow: auto;
 	clear: both;
 }
@@ -170,7 +171,6 @@ footer {
 	font-size: 75%;
 	color: #E9E9E9;
 	text-align: center;
-	margin-top: 25px;
 }
 
 	footer a:link, footer a:active, footer a:visited { color: #fff; }
