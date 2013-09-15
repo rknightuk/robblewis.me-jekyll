@@ -20,3 +20,5 @@ title: Side projects and resources
 ## Miscellaneous
 
 - [Back to the Future Drinking Game](back-to-the-future-drinking-game) - A drinking game based on the Back to the Future trilogy. Be careful. Seriously.
+- [Thing I Hate About Being an Adult](hate-being-an-adult) - Does what it says on the tin.
+- [Thing I Love About Being an Adult](love-being-an-adult) - As above, but awesome.
