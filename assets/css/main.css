@@ -76,6 +76,10 @@ blockquote {
 		margin-left: 38px;
 	}
 
+	blockquote.feature {
+		font-size: 150%;
+	}
+
 pre {
 	width: 90%; margin: 0 auto;
 	white-space: pre-wrap;       /* css-3 */

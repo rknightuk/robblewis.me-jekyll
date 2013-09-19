@@ -22,6 +22,10 @@ title: The Robb Blog
 
 			<p>{{ post.content}}</p>
 
+			{% if post.link %}
+    			<p>&infin; <a class="link" href="{{ post.link }}">{{ post.link-title }} &raquo;</a></p>
+    		{% endif %}
+
 			{% include post-byline.html %}
 		{% else %}
 
