@@ -11,6 +11,9 @@
 	{% if page.featured %}
 		<img src="/assets/img/posts{{ page.permalink }}.png">
 	{% endif %}
+	{% if page.image_credit %}
+		<p class="meta">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
+	{% endif %}
 	
 	{{ content }}
 
