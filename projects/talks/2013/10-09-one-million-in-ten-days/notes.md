@@ -22,7 +22,7 @@ Then on the 28th of August, 10 days after we'd launched we hit one million pagev
 
 The next week the got to number one on Hacker News, Pinboard popular links and the repo was trending on GitHub. I also noticed that I was the number one PHP developer on GitHub which was odd seeing as these 8 lines were the only lines on PHP on the site at the time. 
 
-And I didn't even write it.
+And I didn't even write it. I have since written some PHP for the sie so I guess that justifies the number one status at least a little bit.
 
 ## The server
 
