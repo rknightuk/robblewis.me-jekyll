@@ -725,3 +725,7 @@ ul li img {
 .right {
 	float: right;
 }
+
+.slide img {
+	max-width: 100%;
+}
