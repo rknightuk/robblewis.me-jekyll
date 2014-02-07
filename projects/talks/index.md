@@ -3,4 +3,4 @@ title: Talks and Presentations
 layout: page
 ---
 
-{% include talks-list.html %}
+All my talks are listed on [my projects page](/projects)
