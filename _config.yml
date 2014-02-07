@@ -3,6 +3,6 @@ description: "Robb Lewis developer in Portsmouth, UK. Blogs about technology, de
 markdown: redcarpet
 pygments: true
 permalink: /:title
-paginate: 10
+paginate: 15 
 paginate_path: "blog/page/:num"
 relative_permalinks: true

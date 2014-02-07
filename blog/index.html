@@ -1,51 +1,17 @@
 ---
-layout: page
 title: The Robb Blog
+layout: page
+section_class: blog-index
+subheading: '<a href="/blog/archive">View the archive</a>'
 ---
 
-<section class="blog-index">
 {% for post in paginator.posts %}
-<article>
 
-	{% if forloop.first %}
-		{% if paginator.page == 1 %}
-
-			<h2 class="post-header first-post"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<p class="meta first-post">{{ post.date | date: "%A %d %B, %Y" }}<br/>
-			<span class="icon">_</span> <a target="_blank" href="https://twitter.com/intent/tweet?text={{post.title}}&amp;url=http://robblewis.me{{post.permalink}}">tweet this article</a> | 
-			<span class="icon">X</span><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me{{post.permalink}}">share on facebook</a>
-			</p>
-
-			{% if post.featured %}
-				<img src="/assets/img/posts{{ post.permalink }}.png">
-			{% endif %}
-
-			<p>{{ post.content}}</p>
-
-			{% if post.link %}
-    			<p>&infin; <a class="link" href="{{ post.link }}">{{ post.link-title }} &raquo;</a></p>
-    		{% endif %}
-
-			{% include post-byline.html %}
-		{% else %}
-
-			<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
-			<p class="meta">{{ post.date | date: "%A %d %B, %Y" }}</p>
-			<p>{{ post.excerpt }}</p>
-			<p><a href="{{post.permalink}}">Read more &raquo;</a></p>
-
-		{% endif %}
-
-	{% else %}
-
-		<h2 class="post-header"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
-		<p class="meta">{{ post.date | date: "%A %d %B, %Y" }}</p>
+	<article>
+		<h2><span class="date">{{ post.date | date: "%m/%y" }} </span><a href="{{ post.url }}">{{ post.title }}&nbsp;&raquo;</a></h2>
 		<p>{{ post.excerpt }}</p>
-		<p><a href="{{post.permalink}}">Read more &raquo;</a></p>
+	</article>
 
-	{% endif %}
-
-</article>
 {% endfor %}
     
 {% if paginator.next_page %} 

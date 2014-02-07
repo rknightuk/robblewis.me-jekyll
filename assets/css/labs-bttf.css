@@ -1,7 +1,10 @@
+
+
 .third {
 	width: 30%;
 	float: left;
 	margin: 10px;
+	line-height: 1.5;
 }
 
 .one, .two, .down {

@@ -1,60 +1,92 @@
 <!DOCTYPE HTML>
 <html>
 
-  <head>
-  
-    <title>{{ site.name }} &raquo; {{ page.title }}</title>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta description="Robb Lewis developer in Portsmouth, UK. Blogs about technology, development and the web.">
-    
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<head>
 
-    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
-    <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/meanmenu.css" media="all" />
-    {% if page.style %}
-      <link rel="stylesheet" type="text/css" href="/assets/css/{{page.style}}.css" />
-    {% endif %}
+		<!-- 
+			 ___     _    _    _               _                
+			| _ \___| |__| |__| |   _____ __ _(_)___  _ __  ___ 
+			|   / _ \ '_ \ '_ \ |__/ -_) V  V / (_-<_| '  \/ -_)
+			|_|_\___/_.__/_.__/____\___|\_/\_/|_/__(_)_|_|_\___|
+			
+		-->
+	
+		<title>{{ site.name }} &raquo; {{ page.title }}</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="Robb Lewis developer in Portsmouth, UK. Blogs about technology, development and the web.">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/scripts.js"></script>
-    <script src="/assets/js/jquery.meanmenu.min.js"></script>
+		<!-- Twitter cards -->
+			<meta name="twitter:card" content="summary">
+			<meta name="twitter:site" content="@rmlewisuk">
+			<meta name="twitter:creator" content="@rmlewisuk">
+			<meta name="twitter:title" content="{{ page.title | escape }}">
+		{% if page.layout == 'post' %}
+			<meta name="twitter:description" content="{{ page.excerpt | escape }}">
+			{% if page.featured %}
+				<meta name="twitter:image:src" content="http://robblewis.me/assets/img/posts{{ page.permalink }}.png">
+			{% endif %}
+			<meta name="twitter:domain" content="robblewis.me">
+		{% endif %}
 
-    {% if page.script %}
-    <script src="/assets/js/{{page.script}}.js"></script>
-    {% endif %}
+		<link rel="author" href="/humans.txt" />
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
 
-    <script type="text/javascript">
-        var GoSquared = {};
-        GoSquared.acct = "GSN-829474-I";
-        (function(w){
-          function gs(){
-            w._gstc_lt = +new Date;
-            var d = document, g = d.createElement("script");
-            g.type = "text/javascript";
-            g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
-            var s = d.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(g, s);
-          }
-          w.addEventListener ?
-            w.addEventListener("load", gs, false) :
-            w.attachEvent("onload", gs);
-        })(window);
-    </script>
-    
-  </head>
-  
-  <body>
-    
-    <a href='https://alpha.app.net/rmlewisuk' rel='me' style="display: none">@rmlewisuk</a>
-    
-    {% include nav.html %}
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+		{% if page.style %}
+      	<link rel="stylesheet" type="text/css" href="/assets/css/{{page.style}}.css" />
+    	{% endif %}
 
-    <section class="main">
-    <section class="wrap posts">
+    	<!-- GoSquared -->
+    	<script>
+    	  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+    	  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+    	  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+    	  insertBefore(d,q)}(window,document,'script','_gs');
+    	  
+    	  _gs('GSN-829474-I');
+    	</script>
+		
+	</head>
+	
+	<body>
+
+		{% include nav.html %}
+
+		<section class="block primary">
+			<header class="inner {% if page.header_class %}{{page.header_class}}{% endif %}">
+				{% if page.layout == 'home' %}
+					<img src="/assets/img/avatar_170.jpg" width="170" height="170" alt="Robb Lewis Avatar">
+				{% else %}
+					<h1>{{ page.title }}</h1>
+				{% endif %}
+
+				{% if page.subheading %}
+					<p>{{ page.subheading }}</p>
+				{% endif %}
+
+				{% if page.layout == 'post' %}
+					{% if page.featured %}
+						<img src="/assets/img/posts{{ page.permalink }}.png" width="800" height="250" alt="{{page.title}} header image">
+					{% endif %}
+					{% if page.image_credit %}
+						<p class="meta post">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
+					{% endif %}
+
+					<p class="meta"><i class="fa fa-calendar"></i> {{ page.date | date: "%A %d %B, %Y" }}<br>
+					
+						<i class="fa fa-twitter"></i> <a target="_blank" href="https://twitter.com/intent/tweet?text={{page.title}}&amp;url=http://robblewis.me{{page.permalink}}">tweet</a> | 
+						<i class="fa fa-facebook"></i> <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me/new-york"> share</a><br>
+
+						<a href="/blog" class="all-posts">all blog posts</a>
+					</p>
+				{% endif %}
+			</header>
+		</section>

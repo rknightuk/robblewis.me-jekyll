@@ -5,9 +5,7 @@ date: 2012-10-03 14:16:50
 layout: post
 ---
 
-As you probably know, Passbook support is a little bit sparse in the UK at the moment. I'm sure we’re all fed up of looking at this page:
-
-![](http://therobb.com/wp-content/uploads/2012-10-Photo-03-10-2012-14-13-46.png)
+As you probably know, Passbook support is a little bit sparse in the UK at the moment.
 
 Yesterday, the Eventbrite app got [updated to support Passbook](http://blog.eventbrite.com/add-eventbrite-tickets-to-passbook-on-ios-6/) which is great news for anyone who uses the service. But what about the somewhat more day-to-day apps? I searched around, or asked directly, to get some answers. 
 

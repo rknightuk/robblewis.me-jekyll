@@ -1,9 +1,8 @@
 ---
 layout: page
 title: University Personal Statement
+subheading: '<em>Use as an example. Use it, edit it, copy it. Just be aware that most universities run <a href="http://turnitin.com/static/index.php">plagiarism checks</a> which could lead to you being rejected.</em>'
 ---
-
-_Use as an example. Use it, edit it, copy it. Just be aware that most universities run [plagiarism checks](http://turnitin.com/static/index.php) which could lead to you being rejected._
 
 My passion for web design came in my first year of BTEC Networking, where I studied both ecommerce and website production, along with more networking-specific units. I have always been interested in web design and the internet in general ever since I acquired my first computer, but during these internet-based units my enthusiasm for the subject was amplified and I realised my ambition for a web based vocation. 
 

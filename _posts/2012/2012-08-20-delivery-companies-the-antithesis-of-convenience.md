@@ -5,7 +5,7 @@ date: 2012-08-20 18:26:47
 layout: post
 ---
 
-I wrote about delivery companies a [couple of weeks ago](http://therobb.com/on-delivery-companies-and-their-stupidity/) and I have been thinking about the issues surrounding this and how it could be fixed (in an ideal world). 
+I wrote about delivery companies a couple of weeks ago and I have been thinking about the issues surrounding this and how it could be fixed (in an ideal world).
 
 **Operating hours**
 

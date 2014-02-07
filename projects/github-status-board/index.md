@@ -1,9 +1,9 @@
 ---
-layout: page
 title: GitHub Status Widget
+layout: page
 ---
 
-![Github Cover Photo](/assets/img/pages/projects/githubstatus.png)
+![Github Cover Photo](githubstatus.png)
 
 A widget for Panic's Status Board for iPad to show GitHub status. Queries [status.github.com](http://status.github.com) every 15 minutes to check for changes.
 

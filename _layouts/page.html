@@ -1,10 +1,9 @@
 {% include header.html %}
 
-<h1 {% if page.title == "The Robb Blog" %}class="post-header"{% endif %}>{{ page.title }}</h1>
-{% if page.title == "The Robb Blog" %}
-<p class="meta"><a href="/blog/archive">View the archive ({{ site.posts | size }} posts) &raquo;</a></p>
-{% endif %}
-
-{{ content }}
+<section class="block secondary">
+	<section class="inner {% if page.section_class %}{{page.section_class}}{% endif %}" role="main">
+		{{ content }}
+	</section>
+</section>
 
 {% include footer.html %}

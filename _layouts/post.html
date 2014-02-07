@@ -1,35 +1,22 @@
 {% include header.html %}
 
-	<h1 class="post-header">{{ page.title }}</h1>
+<section class="block secondary">
+	<section class="inner" role="main">
+		{{ content }}
 
-	<p class="meta"><span class="icon">*</span> {{ page.date | date: "%A %d %B, %Y" }}<span class="large-divide">&nbsp;| </span><br class="mobile-break"/>
-		<span class="icon">_</span> <a target="_blank" href="https://twitter.com/intent/tweet?text={{page.title}}&amp;url=http://robblewis.me{{page.permalink}}">tweet this article</a> | 
-		<span class="icon">X</span><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me{{page.permalink}}">share on facebook</a> | 
-		<a href="#" class="focus">focus</a></p>
-	</p>
+		{% if page.link %}
+    		<p>&infin; <a class="link" href="{{ page.link }}">{{ page.link-title }} &raquo;</a></p>
+    	{% endif %}
 
-	{% if page.featured %}
-		<img src="/assets/img/posts{{ page.permalink }}.png">
-	{% endif %}
-	{% if page.image_credit %}
-		<p class="meta">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
-	{% endif %}
-	
-	{{ content }}
+    	<p class="byline"><img src="/assets/img/avatar_60.jpg" width="60" height="60" alt="Small avatar of Robb Lewis">This weblog has no comments. If you want to discuss this post or anything else contact me <a href="http://twitter.com/rmlewisuk">on Twitter (@rmlewisuk)</a> or <a href="/contact">email me</a>.</p>
 
-	{% if page.link %}
-    	<p>&infin; <a class="link" href="{{ page.link }}">{{ page.link-title }} &raquo;</a></p>
-    {% endif %}
-
-	{% include post-byline.html %}
-
-	<nav id="more-posts">
-		{% if page.previous %}
-    		<a href="{{ page.previous.url }}" title="Previous post">&laquo; {{ page.previous.title }}</a>
+    	{% if page.previous %}
+    		<a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
     	{% endif %}
     	{% if page.next %}
-    		<a class="next" href="{{ page.next.url }}" title="Next post">{{ page.next.title }} &raquo;</a>
+    		<a class="next post" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
     	{% endif %}
-  	</nav>
+	</section>
+</section>
 
 {% include footer.html %}

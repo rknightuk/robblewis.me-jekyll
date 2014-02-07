@@ -1,9 +1,7 @@
 ---
+title: "Projects"
 layout: page
-title: Side projects and resources
 ---
-
-![Github Cover Photo](/assets/img/pages/projects-cover.png)
 
 ## Development
 
@@ -13,16 +11,14 @@ title: Side projects and resources
 
 ## Resources
 
-- [University Personal Statement](university-personal-statement) - Use as an example. Use it, edit it, copy it. Just remember some universities run plagiarism checks.
 - [The Pros and Cons of Social Networking Sites](the-pros-and-cons-of-social-networking-sites) - This was a literature review I wrote as part of my degree.
-- [My Social Media Rules](social) - A little outline of how I use Twitter/App.net.
+- [My Social Media Rules](social) - A little outline of how I use Twitter.
+- [University Personal Statement](university-personal-statement) - Use as an example. Use it, edit it, copy it. Just remember some universities run plagiarism checks.
 
 ## Talks and Presentations
 
-{% include talks-list.html %}
+{% include talks_list.html %}
 
 ## Miscellaneous
 
-- [Back to the Future Drinking Game](back-to-the-future-drinking-game) - A drinking game based on the Back to the Future trilogy. Be careful. Seriously.
-- [Thing I Hate About Being an Adult](hate-being-an-adult) - Does what it says on the tin.
-- [Thing I Love About Being an Adult](love-being-an-adult) - As above, but awesome.
+- [Back to the Future Drinking Game](back-to-the-future-drinking-game) - A drinking game based on the Back to the Future trilogy. Be careful. Seriously

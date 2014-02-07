@@ -1,27 +1,52 @@
 ---
-title: "robblewis: developer"
+title: "Robb Lewis"
 layout: home
-script: home
+header_class: intro
+subheading: 'Hi, I&#8217;m Robb Lewis, a developer working and studying in Portsmouth.</p><p>You can see some of my work on <a href="/portfolio">my portfolio</a>, view my code <a href="http://github.com/rmlewisuk">on Github</a>, say hi <a href="http://twitter.com/rmlewisuk">on Twitter</a> or <a href="/contact">drop me an email</a>.'
 ---
 
-<img class="hero" src="/assets/img/home-hero.jpg">
+<section class="inner blog-posts">
+	<h2>Recent Posts</h2>
+	<ul>
+		{% for post in site.posts limit: 5 %}
+			<li><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }} &raquo;</a></li>
+		{% endfor %}
+	</ul>
+	<a href="/blog">View Blog &raquo;</a>
+</section>
 
-<p>Hi. I’m Robb Lewis, a developer living in Portsmouth, UK. I am currently studying Web Technologies at Portsmouth University. I'm not a designer (and don't pretend to be), so I work with designers to create functional sites and applications from their designs.</p>
+<section class="inner work">
+	<h2>Recent Work</h2>
 
-<p>I do all my development work with an 27″ i3 iMac, a 2011 11″ i5 Macbook Air, an iPad Mini and an iPhone 4S. Most of <a href="/blog/" title="Blog">my writing</a> is done in <a href="http://bywordapp.com/">Byword</a> (iOS and OS X) and <a href="http://www.red-sweater.com/marsedit/">MarsEdit</a> with everything synced via <a href="http://db.tt/y4aAIZ9">Dropbox</a>. I write code in <a href="http://www.sublimetext.com/">Sublime Text</a> and version it with Git/<a href="http://github.com/rmlewisuk">GitHub</a>. I also use <a href="http://mikerogers.io">Mike Rogers’</a> <a href="https://chrome.google.com/webstore/detail/pilnojpmdoofaelbinaeodfpjheijkbh">LivePage Chrome extension</a>.</p>
+	<!-- <a class="work-link" href="http://gamefolio.net">
+		<div class="piece gf">
+			<span class="title">GameFolio</span>
+		</div>
+	</a> -->
 
-<p>I like trying out new web services and social networks but I generally only use  <a href="http://twitter.com/rmlewisuk">Twitter</a>. If you’re thinking about following me you should <a href="/projects/social/" title="My Social Media Rules">read this first</a>.</p>
+	<a class="work-link" href="http://justdelete.me">
+		<div class="piece jdm">
+			<span class="title">just<span class="red">delete</span>.me</span>
+		</div>
+	</a>
 
-<p>I would love to start my own podcast but time is not in abundance at the moment. If, however, you would like a guest with a great knowledge of development, technology or the web in general (or Back to the Future), <a href="/contact">get in contact</a>.</p>
+	<a class="work-link" href="http://xrmpartners.co.uk">
+		<div class="piece xrm">
+			<span class="title">XRM Partners</span>
+		</div>
+	</a>
 
-{% include home-latest-post.html %}
+	<a class="work-link" href="/portfolio">
+		<div class="piece sandd">
+			<span class="title">Stuart and Dion</span>
+		</div>
+	</a>
 
-{% include home-latest-repo.html %}
+	<p><a href="/portfolio">View More &raquo;</a></p>
+</section>
 
-<h3>&diams; Latest portfolio entry &raquo; <a href="/portfolio#jdm">JustDelete.me</a></h3>
-
-	<blockquote>
-		<p>JustDelete.me started as a weekend project between Ed Poole and myself to create a directory of direct links to account deletion pages for web services.</p>
-	</blockquote>
-
-<!-- {% include home-latest-tweet.html %} Removed because Twitter sucks -->
+<section class="inner instagram">
+	<h2>Recent Photos</h2>
+	<div id="instagram"></div>
+	<p><a href="http://instagram.com/rmlewisuk">View Instagram profile &raquo;</a></p>
+</section>
