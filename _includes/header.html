@@ -24,13 +24,16 @@
 			<meta name="twitter:card" content="summary">
 			<meta name="twitter:site" content="@rmlewisuk">
 			<meta name="twitter:creator" content="@rmlewisuk">
+			<meta name="twitter:domain" content="robblewis.me">
 			<meta name="twitter:title" content="{{ page.title | escape }}">
 		{% if page.layout == 'post' %}
 			<meta name="twitter:description" content="{{ page.excerpt | escape }}">
 			{% if page.featured %}
 				<meta name="twitter:image:src" content="http://robblewis.me/assets/img/posts{{ page.permalink }}.png">
 			{% endif %}
-			<meta name="twitter:domain" content="robblewis.me">
+		{% else %}
+			<meta name="twitter:description" content="Robb Lewis developer in Portsmouth, UK. Blogs about technology, development and the web.">
+			<meta name="twitter:image:src" content="http://robblewis.me/assets/img/avatar_170.png">
 		{% endif %}
 
 		<link rel="author" href="/humans.txt" />
