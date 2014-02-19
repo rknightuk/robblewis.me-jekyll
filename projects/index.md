@@ -5,12 +5,19 @@ layout: page
 
 ## Hackathons
 
+### [Third World Problems](https://github.com/DevsDoDesign/ThirdWorldProblems)
+
+![](/assets/img/projects/pub-hack-2.png)
+
+<p><code class="tag"><a href="https://github.com/DevsDoDesign/ThirdWorldProblems"><i class="fa fa-code-fork"></i> Fork on GitHub</a></code> <code class="tag">Javascript</code> <code class="tag">Laravel</code> <code class="tag">PHP</code></p>
+The [#devsdodesign](http://devsdodesign.com) entry to [Pub Hack #2](http://www.pubhack.co.uk/events/pubhack-2/). The theme was #firstworldproblems.
+
 ### [Has It Blown Over Yet?](http://blownover.meteor.com)
 
 ![](/assets/img/projects/pub-hack-1.png)
 
-<p><code class="tag"><a href="https://github.com/DevsDoDesign/HasItBlownOver"><i class="fa fa-code-fork"></i> Fork on GitHub</a></code> <code class="tag">Javscript</code> <code class="tag">Meteor</code> <code class="tag">Google&nbsp;Maps&nbsp;API</code></p>
-The [#devsdodesign](http://devsdodesign.com) entry to [Pub Hack #1](http://www.pubhack.co.uk/events/pubhack-1/). Tweet the amount of Zombies, it gets marked on the map. **Winner: Most Likely to Commercially Succeed** (no longer functional)
+<p><code class="tag"><a href="https://github.com/DevsDoDesign/HasItBlownOver"><i class="fa fa-code-fork"></i> Fork on GitHub</a></code> <code class="tag">Javascript</code> <code class="tag">Meteor</code> <code class="tag">Google&nbsp;Maps</code></p>
+**Winner: Most Likely to Commercially Succeed** - The [#devsdodesign](http://devsdodesign.com) entry to [Pub Hack #1](http://www.pubhack.co.uk/events/pubhack-1/). Tweet the amount of Zombies, it gets marked on the map. (no longer functional)
 
 ## Development
 
