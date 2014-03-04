@@ -5,14 +5,14 @@ layout: page
 
 ## Hackathons
 
-### [Third World Problems](https://github.com/DevsDoDesign/ThirdWorldProblems)
+### [Third World Problems](http://thirdworldproblems.devsdodesign.com)
 
 ![](/assets/img/projects/pub-hack-2.png)
 
 <p><code class="tag"><a href="https://github.com/DevsDoDesign/ThirdWorldProblems"><i class="fa fa-code-fork"></i> Fork on GitHub</a></code> <code class="tag">Javascript</code> <code class="tag">Laravel</code> <code class="tag">PHP</code></p>
 The [#devsdodesign](http://devsdodesign.com) entry to [Pub Hack #2](http://www.pubhack.co.uk/events/pubhack-2/). The theme was #firstworldproblems.
 
-### [Has It Blown Over Yet?](http://blownover.meteor.com)
+### [Has It Blown Over Yet?](http://blownover.devsdodesign.com)
 
 ![](/assets/img/projects/pub-hack-1.png)
 
