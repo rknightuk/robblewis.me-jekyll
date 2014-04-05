@@ -15,7 +15,7 @@ The Chromecast is really easy to setup; plug in the dongle into an HDMI port, pl
 ### Apps
 
 Google lists a number of apps [on the Chromecast site](http://chromecast.com/apps) that have support for the Chromecast but the ones I am most interested in were BBC iPlayer, Netflix, Plex and YouTube.
-If you've ever used AirPlay on an iOS device, using Chromecast is just a simple. In any supported app, select the "cast button", choose your Chromecast from the list and the video will start playing through your TV.
+If you've ever used AirPlay on an iOS device, using Chromecast is just as simple. In any supported app, select the "cast button", choose your Chromecast from the list and the video will start playing through your TV.
 
 YouTube, Netflix and BBC iPlayer were fairly straight forward and worked without a hitch. Plex required me to update the server on my Mac to the latest version (I hadn't updated it for over a year). You can also use the Chromecast within Chrome on the desktop by installing the [Chromecast extension](https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd).
 

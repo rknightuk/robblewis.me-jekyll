@@ -78,6 +78,8 @@
 				{% if page.layout == 'post' %}
 					{% if page.featured %}
 						<img class="blog-header" src="/assets/img/posts{{ page.permalink }}.png" width="800" height="250" alt="{{page.title}} header image">
+					{% else %}
+						<hr>
 					{% endif %}
 					{% if page.image_credit %}
 						<p class="meta post">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
