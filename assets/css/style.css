@@ -258,17 +258,14 @@ footer {
 .blog-index h2 {
 	font-size: 1.5em;
 }
-	.blog-index h2 a {
-		line-height: 1.5em;
-	}
-		.date {
-			color: #c4c4c4;
-		}
+	.blog-index h2 a { line-height: 1.5em; }
 
-		.all-posts {
-			font-size: small;
-			text-transform: uppercase;
-		}
+.date { color: #c4c4c4; }
+
+.all-posts {
+	font-size: small;
+	text-transform: uppercase;
+}
 
 .byline {
 	padding: 20px 0;
@@ -282,10 +279,16 @@ footer {
 		border: 2px solid #008a6e;
 		margin-right: 10px;
 	}
-.meta.post {
-	font-size: 80%;
-}
 
+img.blog-header { border: 1px solid #0CB190; }
+.meta {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 90%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.meta.post { font-size: 80%; }
 .next { float: right; }
 
 /* Portfolio */

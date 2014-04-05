@@ -74,21 +74,16 @@
 					<p>{{ page.subheading }}</p>
 				{% endif %}
 
+				<!-- Blog post data -->
 				{% if page.layout == 'post' %}
 					{% if page.featured %}
-						<img src="/assets/img/posts{{ page.permalink }}.png" width="800" height="250" alt="{{page.title}} header image">
+						<img class="blog-header" src="/assets/img/posts{{ page.permalink }}.png" width="800" height="250" alt="{{page.title}} header image">
 					{% endif %}
 					{% if page.image_credit %}
 						<p class="meta post">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
 					{% endif %}
 
-					<p class="meta"><i class="fa fa-calendar"></i> {{ page.date | date: "%A %d %B, %Y" }}<br>
-					
-						<i class="fa fa-twitter"></i> <a target="_blank" href="https://twitter.com/intent/tweet?text={{page.title}}&amp;url=http://robblewis.me{{page.permalink}}">tweet</a> | 
-						<i class="fa fa-facebook"></i> <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://robblewis.me/new-york"> share</a><br>
-
-						<a href="/blog" class="all-posts">all blog posts</a>
-					</p>
+					<p class="meta"><i class="fa fa-calendar"></i> {{ page.date | date: "%A %d %B, %Y" }}</p>
 				{% endif %}
 			</header>
 		</section>
