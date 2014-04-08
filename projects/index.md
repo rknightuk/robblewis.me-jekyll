@@ -12,8 +12,9 @@ layout: page
 
 - [GitHub](http://github.com/rmlewisuk?tab=repositories) - Most of my development projects can be found here.
 - [Movie Downloader Chrome Extension](movie-downloader-chrome) - A Chrome extension that adds download links to IMDB movie pages.
-- [GitHub Status for Status Board](github-status-board) - A widget for Panic's Status Board for iPad to show GitHub status
+- [GitHub Status for Status Board](github-status-board) - A widget for Panic's Status Board for iPad to show GitHub status.
 - [5 Minute Forklet](5minforklet) - A bookmarklet for Remy Sharp’s [5minfork.com](5minfork.com)
+- [Bionic Drink Generator](bionicdrink) - A cocktail generator that might or might not kill you.
 
 ## Resources
 
