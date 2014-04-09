@@ -3,4 +3,6 @@ title: Talks and Presentations
 layout: page
 ---
 
-All my talks are listed on [my projects page](/projects)
+{% include talks_list.html %}
+
+[View all projects](..)
