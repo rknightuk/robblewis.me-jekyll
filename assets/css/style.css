@@ -410,3 +410,28 @@ dd {
 	.color.background-dark {
 		background-color: #2f2f2f;
 		color: #fff;
+	}
+
+button {
+	margin: 0 auto;
+	background: none repeat scroll 0 0 #46B98A;
+	color: #fff;
+	border: 0 none;
+	border-radius: 2px;
+	cursor: pointer;
+	font-family: Arial,sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 7px 10px;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	width: auto;
+	text-align: center;
+}
+
+button:hover {
+	background: none repeat scroll 0 0 #444;
+	color: #FFF;
+}

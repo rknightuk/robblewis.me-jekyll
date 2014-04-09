@@ -43,7 +43,10 @@
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 		<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 		{% if page.style %}
-      	<link rel="stylesheet" type="text/css" href="/assets/css/{{page.style}}.css" />
+      		<link rel="stylesheet" type="text/css" href="/assets/css/{{page.style}}.css" />
+    	{% endif %}
+    	{% if page.title == 'Movie Downloader Chrome Extension' %}
+    		<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/dinhogfacedcmkmbkidnlcchcoanjgma">
     	{% endif %}
 
     	<!-- GoSquared -->
