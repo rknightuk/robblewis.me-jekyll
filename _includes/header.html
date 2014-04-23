@@ -89,6 +89,7 @@
 					{% endif %}
 
 					<p class="meta">{{ page.date | date: "%A %d %B, %Y" }}</p>
+					{{ page.date | timeago: 1 }}
 				{% endif %}
 			</header>
 		</section>
