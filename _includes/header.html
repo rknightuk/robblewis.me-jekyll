@@ -88,8 +88,10 @@
 						<p class="meta post">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
 					{% endif %}
 
-					<p class="meta">{{ page.date | date: "%A %d %B, %Y" }}</p>
-					{{ page.date | timeago: 1 }}
+					<p class="meta">
+						{{ page.date | date: "%A %d %B, %Y" }}<br>
+						<span class="timeago">{{ page.date | timeago: 1 }}</span>
+					</p>
 				{% endif %}
 			</header>
 		</section>
