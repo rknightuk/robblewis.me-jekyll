@@ -90,8 +90,7 @@
 
 					<p class="meta">
 						{{ page.date | date: "%A %d %B, %Y" }}<br>
-						<span class="timeago">{{ page.date | timeago: 1 }}</span>
-						<!-- Testing -->
+						<span class="timing">Published: {{ page.date | timeago: 1 }} | Reading time: {{ page.content | reading_time }}</span>
 					</p>
 				{% endif %}
 			</header>
