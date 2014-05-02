@@ -279,6 +279,7 @@ footer {
 	font-size: 90%;
 	margin-top: 0;
 	margin-bottom: 0;
+	line-height: 20px;
 }
 .meta.post { font-size: 80%; }
 .timing {

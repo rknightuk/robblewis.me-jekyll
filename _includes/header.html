@@ -89,8 +89,11 @@
 					{% endif %}
 
 					<p class="meta">
-						{{ page.date | date: "%A %d %B, %Y" }}<br>
-						<span class="timing">Published: {{ page.date | timeago: 1 }} | Reading time: {{ page.content | reading_time }}</span>
+						<span class="timing">
+							{{ page.date | date: "%A %d %B, %Y" }}<br>
+							Published: {{ page.date | timeago: 1 }}<br>
+							Reading time: {{ page.content | reading_time }}
+						</span>
 					</p>
 				{% endif %}
 			</header>
