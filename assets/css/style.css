@@ -98,32 +98,26 @@ nav {
 		border-bottom: none;
 	}
 
-.burger-button {
+	nav a.current:link, nav a.current:active, nav a.current:visited {
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+
+	nav a.current:hover {
+		color: #3c3c3c;
+		border-bottom: 1px solid #3c3c3c;
+	}
+
+.menu {
 	position: absolute;
+	z-index: 1;
 	top: 0;
 	right: 0;
-	color: #000;
-	font-size: 100%;
-
+	padding: 5px;
+	text-align: right;
 }
-	.burger-button i {
-		padding: 15px;
-		background: #09846c;
-		background: rgba(0, 0, 0, 0.25);
-	}
-	.burger-menu {
-		position: absolute;
-		z-index: 1;
-		display: none;
-		top: 42px;
-		right: 0;
-		padding: 5px;
-		text-align: right;
-		background-color: #09846c;
-		border-top-left-radius: 15px;
-	}
-		.burger-menu ul { list-style-type: none; padding: 0 10px; margin: 0;}
-		.burger-menu li { margin-bottom: 4px;}
+	.menu ul { list-style-type: none; padding: 0 10px; margin: 0;}
+	.menu li { margin-bottom: 4px; padding-left: 10px; display: inline-block; }
 
 /* Site */
 

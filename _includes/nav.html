@@ -1,19 +1,11 @@
 <nav role="navigation">
 	<section>
 		<a href="/"><div class="logomark">RL</div></a>
-		<div class="burger-button closed">
-			<a href="#"><i class="fa fa-bars"></i></a>
-		</div>
-		<div class="burger-menu">
+		<div class="menu">
 			<ul>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/projects">Projects</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li>
-					<a href="http://twitter.com/rmlewisuk"><i class="fa fa-twitter"></i></a>&nbsp;
-					<a href="http://github.com/rmlewisuk"><i class="fa fa-github"></i></a>
-				</li>
+				<li><a {% if page.layout == 'post' or page.path contains 'blog/' %} class="current" {% endif %} href="/blog">Blog</a></li>
+				<li><a {% if page.title == 'Portfolio' %} class="current" {% endif %}href="/portfolio">Portfolio</a></li>
+				<li><a {% if page.path contains 'projects/' %} class="current" {% endif %}href="/projects">Projects</a></li>
 			</ul>
 		</div>
 	</section>
