@@ -116,7 +116,7 @@ nav {
 	padding: 5px;
 	text-align: right;
 }
-	.menu ul { list-style-type: none; padding: 0 10px; margin: 0;}
+	.menu ul { list-style-type: none; padding: 0 10px; margin: 4px 0 0 0; }
 	.menu li { margin-bottom: 4px; padding-left: 10px; display: inline-block; }
 
 /* Site */
