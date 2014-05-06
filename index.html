@@ -1,52 +1,56 @@
 ---
 title: "Robb Lewis"
 layout: home
-header_class: intro
-subheading: 'Hi, I&#8217;m Robb Lewis, a developer working and studying in Portsmouth.</p><p>You can see some of my work on <a href="/portfolio">my portfolio</a>, view my code <a href="http://github.com/rmlewisuk">on Github</a>, say hi <a href="http://twitter.com/rmlewisuk">on&nbsp;Twitter</a> or <a href="/contact">drop me an email</a>.'
 ---
 
-<section class="inner blog-posts">
-	<h2>Recent Posts</h2>
-	<ul>
-		{% for post in site.posts limit: 5 %}
-			<li><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }} &raquo;</a></li>
-		{% endfor %}
-	</ul>
-	<a href="/blog">View Blog &raquo;</a>
+<section class="block primary">
+	<header class="inner intro">
+		
+		<img src="/assets/img/avatar_170.jpg" width="170" height="170" alt="Robb Lewis Avatar">
+
+		<p>Hi, I&#8217;m Robb Lewis, a developer working and studying in Portsmouth.</p><p>You can see some of my work on <a href="/portfolio">my portfolio</a>, view my code <a href="http://github.com/rmlewisuk">on Github</a>, say hi <a href="http://twitter.com/rmlewisuk">on&nbsp;Twitter</a> or <a href="/contact">drop me an email</a>.</p>
+
+	</header>
 </section>
 
-<section class="inner work">
-	<h2>Recent Work</h2>
+<section class="block secondary">
+	<section class="inner blog-posts">
+		<h2>Recent Posts</h2>
+		<ul>
+			{% for post in site.posts limit: 5 %}
+				<li><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }} &raquo;</a></li>
+			{% endfor %}
+		</ul>
+		<a href="/blog">View Blog &raquo;</a>
+	</section>
 
-	<!-- <a class="work-link" href="http://gamefolio.net">
-		<div class="piece gf">
-			<span class="title">GameFolio</span>
-		</div>
-	</a> -->
+	<section class="inner work">
+		<h2>Recent Work</h2>
 
-	<a class="work-link" href="http://justdelete.me">
-		<div class="piece jdm">
-			<span class="title">just<span class="red">delete</span>.me</span>
-		</div>
-	</a>
+		<a class="work-link" href="http://justdelete.me">
+			<div class="piece jdm">
+				<span class="title">just<span class="red">delete</span>.me</span>
+			</div>
+		</a>
 
-	<a class="work-link" href="http://xrmpartners.co.uk">
-		<div class="piece xrm">
-			<span class="title">XRM Partners</span>
-		</div>
-	</a>
+		<a class="work-link" href="http://xrmpartners.co.uk">
+			<div class="piece xrm">
+				<span class="title">XRM Partners</span>
+			</div>
+		</a>
 
-	<a class="work-link" href="/portfolio">
-		<div class="piece sandd">
-			<span class="title">Stuart and Dion</span>
-		</div>
-	</a>
+		<a class="work-link" href="/portfolio">
+			<div class="piece sandd">
+				<span class="title">Stuart and Dion</span>
+			</div>
+		</a>
 
-	<p><a href="/portfolio">View More &raquo;</a></p>
-</section>
+		<p><a href="/portfolio">View More &raquo;</a></p>
+	</section>
 
-<section class="inner instagram">
-	<h2>Recent Photos</h2>
-	<div id="instagram"></div>
-	<p><a href="http://instagram.com/rmlewisuk">View Instagram profile &raquo;</a></p>
+	<section class="inner instagram">
+		<h2>Recent Photos</h2>
+		<div id="instagram"></div>
+		<p><a href="http://instagram.com/rmlewisuk">View Instagram profile &raquo;</a></p>
+	</section>
 </section>

@@ -1,5 +1,13 @@
 {% include header.html %}
 
+<section class="block primary">
+	<header class="inner {% if page.header_class %}{{page.header_class}}{% endif %}">
+
+		<h1>{{ page.title }}</h1>
+		
+	</header>
+</section>
+
 <section class="block secondary">
 	<section class="inner {% if page.section_class %}{{page.section_class}}{% endif %}" role="main">
 		{{ content }}
