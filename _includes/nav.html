@@ -3,9 +3,15 @@
 		<a href="/"><div class="logomark">RL</div></a>
 		<div class="menu">
 			<ul>
-				<li><a {% if page.layout == 'post' or page.path contains 'blog/' %} class="current" {% endif %} href="/blog">Blog</a></li>
-				<li><a {% if page.title == 'Portfolio' %} class="current" {% endif %}href="/portfolio">Portfolio</a></li>
-				<li><a {% if page.path contains 'projects/' %} class="current" {% endif %}href="/projects">Projects</a></li>
+				<li {% if page.layout == 'post' or page.path contains 'blog/' %} class="current" {% endif %}>
+					<a  href="/blog">Blog</a>
+				</li>
+				<li {% if page.title == 'Portfolio' %} class="current" {% endif %}>
+					<a href="/portfolio">Portfolio</a>
+				</li>
+				<li {% if page.path contains 'projects/' %} class="current" {% endif %}>
+					<a href="/projects">Projects</a>
+				</li>
 			</ul>
 		</div>
 	</section>
