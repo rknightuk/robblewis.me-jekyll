@@ -86,24 +86,26 @@ nav {
 		max-width: 800px;
 	}
 
-	nav a:link, nav a:active, nav a:visited {
+	.menu a:link, .menu a:active, .menu a:visited {
 		color: #fff;
 		text-decoration: none;
 		border: none;
 	}
 
-	nav a:hover {
+	.menu a:hover {
 		color: #3c3c3c;
 		text-decoration: none;
 		border-bottom: none;
 	}
 
-	nav a.current:link, nav a.current:active, nav a.current:visited {
+	.menu .current a:link,
+	.menu .current a:active,
+	.menu .current a:visited {
 		color: #fff;
 		border-bottom: 1px solid #fff;
 	}
 
-	nav a.current:hover {
+	.menu .current a:hover {
 		color: #3c3c3c;
 		border-bottom: 1px solid #3c3c3c;
 	}
