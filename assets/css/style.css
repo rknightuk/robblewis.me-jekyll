@@ -205,43 +205,6 @@ footer {
 	margin-left: -15px;
 }
 
-#instagram {
-	text-align: center;
-}
-	.gram {
-		position: relative;
-		margin: 0 5px;
-		display: inline-block;
-		height: 150px;
-		width: 150px;
-	}
-	.gram:hover:after {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: #000;
-		background-color: rgba(214, 214, 214, 0.58);
-		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADTElEQVR4nO3aS4gdRRTG8Z+O0TE+gugMOhriuHHjyoU7CaKoKIpZudCEgKKiGxXUlQjZ+kYQwa2CbqIRXLjwRYIiARUkPnZjYhjiDIhRIeqMcdF9mZrr7Z5+VPe9I/WHA3W7q74653R3VXX1JZFIJBKJRCKRSCS64WZ8il9xuqL9jq9xzxj8jcperKoe+Cjb17fTsXgY/2gX/MCe79n31jwkXvCbLgkPiB/8wJ7rMY5G7NH+me81CWdUqHMj7sQspkrqTeX1zorg10Z8gJMl51dxAgfwcdNOpvCWbq9mH/am8gtXyBMT4Hwse6xJAr6fAMfr2irewX6sBMe/LQqybAxY0fDWqcA3WMBS/nsG87impe4+PJOXn7a2iFrBlrpisa/OEp7ElSV9zuMpLDfsY1egdcfQudrEDP4lbKvR9za83KCfT2Sz1Qw+HDo3krJHoFHWhjiF+2Uj8YApXIfrcUV+7BgO4rDsOR5wL17HdARfqkz564gxIN015MBeHC1ps4DdQ87uEmdlWZu2HT4baJ2r3priDeuv+gubLQHH8qDJrua7DTT2W7sTzsPiZkrAo4HOfS10dgc6j2+WBPyNi3ONaRxvoXUUZ+das9YvbiY2AYcCjeG5uIndFuh9HjsBZ9ZKSTWOBOUbIuiFGkcKazWkiwQsBuXtEfR2BOXjEfTW0UUCVoJy7fX3CML9hdXCWg3pIgFzQXmxsFZ1Qo25wloN6SIB80H5UGGt6hwMyldF0KtM09H2FC7INS7Cby20Tlp7ibow1574WeAc3JKXf9FuO/tF2RcluDXX7o02c/d31gavaXzRQOMwtuYaW7Tfoeo1AafxYKA1J/vWV7Xtl7gsaP9IBH96T8Bf2BnonY9X8uNFbf6UbZ5sDdrt3KBNqwR0vSGyiNvxVXBsB+6WrfAG7wzL+Ahvy94kB1yL93FpBF963xAZ2B/+u8lRxdk9edtYftQmVscD+0z2lWmjr0s3affSM1GPwCiWZLf1D/gpP7YdV8ve/GY66ndkrONIwLgYGWvZQuj/lIDCWMoSsNyBI+Pi56ITZQl4rwNHxsWBJo1m8aP4o3HftoBLmiQALsdrsj8bjDuQunYCr1q/pE4kEolEIpFIJBIJ8C+M6gE1R5AJ4AAAAABJRU5ErkJggg==);
-		background-size: 40px;
-		background-position: center;
-		background-repeat: no-repeat;
-		z-index: 1;
-		content: "";
-	}
-
-	@media screen and (max-width: 340px) {
-		.gram {
-			width: 100%;
-			text-align: center;
-		}
-		.gram:hover:after {
-			background-color: none;
-			background-color: rgba(0, 0, 0, 0);
-		}
-	}
-
 /* Blog */
 
 .blog-index h2 {
