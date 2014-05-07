@@ -1,8 +1,11 @@
 <nav role="navigation">
 	<section>
-		<a href="/"><div class="logomark">RL</div></a>
+		<div class="logomark">RL</div>
 		<div class="menu">
 			<ul>
+				<li {% if page.path == 'index.html' %} class="current" {% endif %}>
+					<a href="/">Home</a>
+				</li>
 				<li {% if page.layout == 'post' or page.path contains 'blog/' %} class="current" {% endif %}>
 					<a  href="/blog">Blog</a>
 				</li>
