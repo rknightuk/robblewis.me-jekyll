@@ -172,9 +172,6 @@ nav {
 		.menu ul:hover li.current {
 			margin-left: 0;
 		}
-		.menu ul:hover .current {
-			background: url(images/icon-check.png) no-repeat 10px 7px;
-		}
 
 		/* right nav */
 		.menu.right ul {
