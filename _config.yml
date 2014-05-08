@@ -19,3 +19,6 @@ copyright: 2014
 rss_path: /
 rss_name: rss.xml
 rss_post_limit: 100
+
+# gems
+gems: [jekyll-timeago]
