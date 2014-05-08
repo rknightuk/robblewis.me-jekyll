@@ -119,7 +119,7 @@ nav {
 	.menu ul { list-style-type: none; padding: 0 10px; margin: 4px 0 0 0; }
 	.menu li { margin-bottom: 4px; padding-left: 10px; display: inline-block; }
 
-	@media screen and (max-width: 1500px) {
+	@media screen and (max-width: 600px) {
 		.menu .current a:link,
 		.menu .current a:active,
 		.menu .current a:visited,
