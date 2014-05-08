@@ -143,15 +143,14 @@ nav {
 			padding: 5px 8px;
 		}
 		.menu li {
-			display: none; /* hide all <li> items */
+			display: none;
 			margin: 0;
 		}
 		.menu .current {
-			display: block; /* show only current <li> item */
+			display: block;
 		}
 		.menu a {
 			display: block;
-			/*padding: 5px 5px 5px 32px;*/
 			text-align: left;
 		}
 		.menu .current a {
@@ -159,7 +158,6 @@ nav {
 			color: #666;
 		}
 
-		/* on nav hover */
 		.menu ul:hover {
 			background-image: none;
 		}
@@ -171,18 +169,6 @@ nav {
 
 		.menu ul:hover li.current {
 			margin-left: 0;
-		}
-
-		/* right nav */
-		.menu.right ul {
-			left: auto;
-			right: 0;
-		}
-
-		/* center nav */
-		.menu.center ul {
-			left: 50%;
-			margin-left: -90px;
 		}
 		
 	}
