@@ -1,3 +1,9 @@
+/*
+------------------------
+------- GLOBAL
+------------------------
+*/
+
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
@@ -53,8 +59,6 @@ img {
 	height: auto;
 }
 
-/* Logo */
-
 .logomark {
 	width: 23px;
 	top: 5px;
@@ -65,7 +69,11 @@ img {
 	margin-left: 0;
 }
 
-/* Nav */
+/*
+------------------------
+------- HEADER AND NAV
+------------------------
+*/
 
 nav {
 	position: relative;
@@ -240,7 +248,11 @@ footer {
 		margin-top: 0;
 	}
 
-/* Home */
+/*
+------------------------
+------- HOME PAGE
+------------------------
+*/
 
 .intro {
 	text-align: center;
@@ -257,7 +269,11 @@ footer {
 	margin-left: -15px;
 }
 
-/* Blog */
+/*
+------------------------
+------- BLOG
+------------------------
+*/
 
 .blog-index h2 {
 	font-size: 1.5em;
@@ -299,7 +315,11 @@ footer {
 }
 .next { float: right; }
 
-/* Portfolio */
+/*
+------------------------
+------- PORTFOLIO
+------------------------
+*/
 
 dd {
   font-style: italic;
@@ -383,22 +403,26 @@ dd {
 			border: 1px solid #0cb190;
 		}
 
-		a:link.gram-link,
-		a:active.gram-link,
-		a:visited.gram-link,
-		a:link.work-link,
-		a:active.work-link,
-		a:visited.work-link,
-		.tag a:link,
-		.tag a:active,
-		.tag a:visited,
-		.meta a:link,
-		.meta a:active,
-		.meta a:visited {
-			border-bottom: none;
-		}
+a:link.gram-link,
+a:active.gram-link,
+a:visited.gram-link,
+a:link.work-link,
+a:active.work-link,
+a:visited.work-link,
+.tag a:link,
+.tag a:active,
+.tag a:visited,
+.meta a:link,
+.meta a:active,
+.meta a:visited {
+	border-bottom: none;
+}
 
-/* Color scheme */
+/*
+------------------------
+------- COLOUR SCHEME
+------------------------
+*/
 .color {
 	position: relative;
 	width: 100%;
