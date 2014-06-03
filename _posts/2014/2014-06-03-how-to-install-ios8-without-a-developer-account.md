@@ -2,7 +2,6 @@
 title: "How to Install iOS8 Beta Without a Developer Account"
 permalink: /how-to-install-ios8-without-a-developer-account
 layout: post
-featured: true
 excerpt: "How to install iOS8 beta without a developer account."
 ---
 
