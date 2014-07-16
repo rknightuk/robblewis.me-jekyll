@@ -26,6 +26,7 @@ drinks.x = "Xante Liqueur";
 drinks.y = "Yoghurt";
 drinks.z = "Zima";
 
+
 $(document).ready(function(){
 
 	if(window.location.hash) {
@@ -57,6 +58,7 @@ $(document).ready(function(){
 
 		$('.twitter-share').attr('href', 'https://twitter.com/intent/tweet?text=I created my %23bionicdrink, what\'s yours?&url=http://robblewis.me/projects/bionicdrink/%23'+name);
 		
+		name = name.toLowerCase();
 		name = name.split('');
 		var drink = [];
 
