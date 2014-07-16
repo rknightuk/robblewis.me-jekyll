@@ -42,6 +42,13 @@ $(document).ready(function(){
 		getDrink();
 	});
 
+	$('#name-input').submit(function(e) {
+		e.preventDefault();
+		window.location.hash = $('#drink-name').val();
+
+		getDrink();
+	});
+
 	function getDrink() {
 		var name = $('#drink-name').val();
 		if (name.match(/[^a-zA-Z ]/g)) {
