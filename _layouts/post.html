@@ -7,14 +7,12 @@
 
         {% if page.featured %}
             <img class="blog-header" src="/assets/img/posts{{ page.permalink }}.png" width="800" height="250" alt="{{page.title}} header image">
-        {% else %}
-            <hr>
         {% endif %}
         {% if page.image_credit %}
             <p class="meta post">Image by <a href="{{ page.image_credit }}">{{ page.image_credit_name }}</a></p>
         {% endif %}
 
-        <p class="meta">
+        <p class="meta {% unless page.image_credit %}no-image{% endunless %}">
             <span class="timing">
                 {{ page.date | date: "%A %d %B, %Y" }}<br>
                 {{ page.date | timeago }}
