@@ -1,0 +1,89 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Love!</title>
+		<style type="text/css" media="screen">@import "css/jqtouch.css";</style>
+		<script src="src/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var jQT = new $.jQTouch({
+			    icon: 'favorites.png',
+			    icon4: 'favorites.png',
+			    statusBar: 'black-translucent',
+			    themeSelectionSelector: '#jqt #themes ul',
+			    preloadImages: []
+			});
+			// Page animation callback events
+	    $('#pageevents').
+	        bind('pageAnimationStart', function(e, info){ 
+	            $(this).find('.info').append('Started animating ' + info.direction + '&hellip;  And the link ' +
+	                'had this custom data: ' + $(this).data('referrer').data('custom') + '<br>');
+	        }).
+	        bind('pageAnimationEnd', function(e, info){
+	            $(this).find('.info').append('Finished animating ' + info.direction + '.<br><br>');
+
+	        });
+
+	    // Page animations end with AJAX callback event, example 1 (load remote HTML only first time)
+	    $('#callback').bind('pageAnimationEnd', function(e, info){
+	        // Make sure the data hasn't already been loaded (we'll set 'loaded' to true a couple lines further down)
+	        if (!$(this).data('loaded')) {
+	            // Append a placeholder in case the remote HTML takes its sweet time making it back
+	            // Then, overwrite the "Loading" placeholder text with the remote HTML
+	            $(this).append($('<div>Loading</div>').load('ajax.html .info', function() {        
+	                // Set the 'loaded' var to true so we know not to reload
+	                // the HTML next time the #callback div animation ends
+	                $(this).parent().data('loaded', true);  
+	            }));
+	        }
+	    });
+	    // Orientation callback event
+	    $('#jqt').bind('turn', function(e, data){
+	        $('#orient').html('Orientation: ' + data.orientation);
+	    });
+		</script>
+	</head>
+	<body style="overflow:hidden;">
+		<div id="jqt">	
+			<!-- This is the first window -->
+			<div id="home" class="current" style="top: 0px; ">
+         <div class="toolbar">
+             <h1>I Love You</h1>
+         </div>
+					<img src="favorites.png" style="max-width:100%; margin-left:25%; margin-bottom:20px; margin-top:50px;" />
+					<h2 style="text-align:center;">Happy Valentine's Day, Jess x</h2>
+					<a href="#love" class="redButton slide" style="">Tap me</a>
+					<h2 align="center">First add to your home screen</h2>
+					<h2 align="center">-----&darr;-----</h2>
+			</div>
+			<!-- This is the second window -->
+			<div id="love">
+				<div class="toolbar">
+             <h1>I love you...</h1>
+						<a class="back" href="#" style="">Home</a>
+         </div>
+				<img src="img/two.jpg" style="max-width:100%; overflow:hidden;" />
+				<a href="#bud" class="redButton slide" style="position:absolute; bottom:20px; right:10px;">Next</a>
+			</div>
+			<!-- This is the third window -->
+			<div id="bud">
+				<div class="toolbar">
+             <h1>…lots…</h1>
+						<a class="back" href="#love" style="">Back</a>
+         </div>
+				<img src="img/three.jpg" style="max-width:100%;" />
+				<a href="#mac" class="redButton slide" style="position:absolute; bottom:20px; right:10px;">Next</a>
+			</div>
+			<!-- This is the fourth window -->
+			<div id="mac">
+				<div class="toolbar">
+             <h1>…and lots.</h1>
+						<a class="back" href="#bud" style="">Back</a>
+         </div>
+         <h2 align="center">Happy Valentine's Baby :) xxx</h2>
+				<img src="img/one.jpg" style="max-width:100%;" />
+								</div>
+			</div>
+		</div>
+	</body>
+</html>
