@@ -351,6 +351,7 @@ dd {
 	.file-lister { background-color: #ea7ca1; color: #fff; }
 	.sandd { background-color: #dd5a71; color: #fff; }
 	.xrm { background-color: #37a3eb; color: #fff;}
+	.pebbleGS { background-color: #000; color: #fff; }
 
 	.work .piece { height: 120px; width: 32.5%; margin-bottom: 5px; }
 		@media screen and (max-width: 660px) {
