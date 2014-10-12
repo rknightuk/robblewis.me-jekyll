@@ -44,3 +44,13 @@ Created for [Stephen Hackett](http://512pixels.net).
 I wanted a Pebble SDKv2 version of [this](http://www.mypebblefaces.com/apps/12151/7828/), so I made one.
 
 - [Download](/downloads/pebble/SuperMario.pbw)
+
+## Super Mario v2
+
+<center>
+    ![](img/RetroTime24hr.png)
+</center>
+
+Modified version of [Retro-Time](https://github.com/jonwgeorge/Retro-Time); different font, battery meter centered and changed to 20% sections.
+
+- [Download](/downloads/pebble/RetroTime24hr.pbw)
