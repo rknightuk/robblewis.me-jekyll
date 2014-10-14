@@ -45,7 +45,7 @@ I wanted a Pebble SDKv2 version of [this](http://www.mypebblefaces.com/apps/1215
 
 - [Download](/downloads/pebble/SuperMario.pbw)
 
-## Super Mario v2
+## Retro Time 24hr
 
 <center>
     ![](img/RetroTime24hr.png)
