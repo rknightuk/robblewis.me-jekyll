@@ -1,18 +1,3 @@
----
----
-
-// Green
-// $primary-color: #008a6e;
-// $secondary-color: #0cb190;
-
-// Pink
-// $primary-color: #d1217f;
-// $secondary-color: #CB5494;
-
-// Red
-$primary-color: #db0a5b;
-$secondary-color: #D2286A;
-
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.1em;
