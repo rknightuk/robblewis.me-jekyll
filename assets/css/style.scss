@@ -1,8 +1,17 @@
-/*
-------------------------
-------- GLOBAL
-------------------------
-*/
+---
+---
+
+// Green
+// $primary-color: #008a6e;
+// $secondary-color: #0cb190;
+
+// Pink
+// $primary-color: #d1217f;
+// $secondary-color: #CB5494;
+
+// Red
+$primary-color: #db0a5b;
+$secondary-color: #D2286A;
 
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -42,13 +51,13 @@ pre {
 }
 
 a:link, a:active, a:visited {
-	color: #008a6e;
+	color: $secondary-color;
 	text-decoration: none;
-	border-bottom: 1px solid #008a6e;
+	border-bottom: 1px solid $secondary-color;
 }
 
 a:hover {
-	color: #0CB190;
+	color: $primary-color;
 	text-decoration: none;
 	border-bottom: none;
 }
@@ -81,8 +90,8 @@ nav {
 	padding-top: 35px;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #0CB190;
-	border-bottom: 1px solid #008A6E;
+	background-color: $primary-color;
+	border-bottom: 1px solid $secondary-color;
 }
 	nav section {
 		position: relative;
@@ -146,7 +155,7 @@ nav {
 			margin-top: -5px;
 			width: 150px;
 			border: solid 4px #fff;
-			background-color: #0cb190;
+			background-color: $primary-color;
 			padding: 5px 8px;
 		}
 		.menu li {
@@ -259,7 +268,7 @@ footer {
 
 	.intro img {
 		border-radius: 85px;
-		border: 2px solid #008a6e;
+		border: 2px solid $secondary-color;
 		margin-top: 10px;
 	}
 
@@ -295,7 +304,7 @@ footer {
 	.byline img {
 		border-radius: 40px;
 		float: left;
-		border: 2px solid #008a6e;
+		border: 2px solid $secondary-color;
 		margin-right: 10px;
 	}
 
@@ -322,8 +331,8 @@ footer {
 */
 
 dd {
-  font-style: italic;
-  margin-top: 5px;
+	font-style: italic;
+	margin-top: 5px;
 }
 
 .portfolio .wrapper {
@@ -404,7 +413,7 @@ dd {
 
 		.tag i { font-size: 80%; }
 		.fork .tag:hover {
-			border: 1px solid #0cb190;
+			border: 1px solid $primary-color;
 		}
 
 a:link.gram-link,
@@ -438,10 +447,10 @@ a:visited.work-link,
 	color: #fff;
 }
 	.color.darker {
-		background-color: #008a6e;
+		background-color: $secondary-color;
 	}
 	.color.main {
-		background-color: #0CB190;
+		background-color: $primary-color;
 	}
 	.color.background {
 		background-color: #fff;
