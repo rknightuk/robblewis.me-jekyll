@@ -42,7 +42,7 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-	color: #0cb190;
+	color: #db0a5b;
 	text-decoration: none;
 	border-bottom: none;
 }
@@ -75,7 +75,7 @@ nav {
 	padding-top: 35px;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #0cb190;
+	background-color: #db0a5b;
 	border-bottom: 1px solid #d2286a;
 }
 	nav section {
@@ -140,7 +140,7 @@ nav {
 			margin-top: -5px;
 			width: 150px;
 			border: solid 4px #fff;
-			background-color: #0cb190;
+			background-color: #db0a5b;
 			padding: 5px 8px;
 		}
 		.menu li {
@@ -398,7 +398,7 @@ dd {
 
 		.tag i { font-size: 80%; }
 		.fork .tag:hover {
-			border: 1px solid #0cb190;
+			border: 1px solid #db0a5b;
 		}
 
 a:link.gram-link,
@@ -435,7 +435,7 @@ a:visited.work-link,
 		background-color: #d2286a;
 	}
 	.color.main {
-		background-color: #0cb190;
+		background-color: #db0a5b;
 	}
 	.color.background {
 		background-color: #fff;
