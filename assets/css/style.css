@@ -452,7 +452,7 @@ a:visited.work-link,
 
 button {
 	margin: 0 auto;
-	background: none repeat scroll 0 0 #46B98A;
+	background: none repeat scroll 0 0 #db0a5b;
 	color: #fff;
 	border: 0 none;
 	border-radius: 2px;
@@ -470,6 +470,5 @@ button {
 }
 
 button:hover {
-	background: none repeat scroll 0 0 #444;
-	color: #FFF;
+	background: none repeat scroll 0 0 #2f2f2f;
 }
