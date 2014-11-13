@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	margin: 0;
 	padding: 0;
 	color: #3c3c3c;
@@ -17,9 +17,9 @@ h6 { font-size:0.7em; }
 
 blockquote {
 	color: #808080;
+	font-style: italic;
 }
 	blockquote p {
-		font-style: italic;
 		font-size: 1.2em;
 	}
 
@@ -82,7 +82,7 @@ nav {
 		position: relative;
 		margin: 0 auto;
 		width: 90%;
-		max-width: 800px;
+		max-width: 1100px;
 	}
 
 	.menu a:link, .menu a:active, .menu a:visited {
@@ -187,7 +187,7 @@ nav {
 		position: relative;
 		margin: 0 auto;
 		width: auto;
-		max-width: 800px;
+		max-width: 1100px;
 		padding: 10px;
 	}
 
@@ -261,6 +261,10 @@ footer {
 	list-style-type: none;
 	margin-left: -15px;
 }
+
+	.blog-posts blockquote {
+		margin-top: 5px;
+	}
 
 /*
 ------------------------
@@ -341,11 +345,17 @@ dd {
 		.jdm .red { color: #cf5a5a; }
 	.imdb { background-color: #f4d03f; color: #3D3D3D; }
 	.isav { background-color: #3b3b3b; color: #fff; }
-		.isav .title { font-family: monospace; font-size: 120%; }
 	.file-lister { background-color: #ea7ca1; color: #fff; }
 	.sandd { background-color: #dd5a71; color: #fff; }
 	.xrm { background-color: #37a3eb; color: #fff;}
 	.pebbleGS { background-color: #000; color: #fff; }
+	.ddd {
+		background: #EE306A;
+		background: -webkit-linear-gradient(-25deg, #EE3041, #EE30AA);
+		background: -moz-linear-gradient(-25deg, #EE3041, #EE30AA);
+		background: linear-gradient(-25deg, #EE3041, #EE30AA);
+		color: #fff;
+	}
 
 	.work .piece { height: 120px; width: 32.5%; margin-bottom: 5px; }
 		@media screen and (max-width: 660px) {
@@ -371,6 +381,8 @@ dd {
 			z-index: 1;
 			content: "";
 		}
+
+	.isav .title { font-family: monospace; font-size: 120%; line-height: 124px; }
 
 .tags {
 	position: absolute;

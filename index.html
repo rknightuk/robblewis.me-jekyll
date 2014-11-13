@@ -17,25 +17,26 @@ layout: home
 	<section class="inner blog-posts">
 		<h2>Recent Posts</h2>
 		<ul>
-			{% for post in site.posts limit: 5 %}
-				<li><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }} &raquo;</a></li>
+			{% for post in site.posts limit: 3 %}
+				<li><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }}</a></li>
+				<blockquote>{{ post.excerpt }}</blockquote>
 			{% endfor %}
 		</ul>
-		<a href="/blog">View Blog &raquo;</a>
+		<a href="/blog">All posts &raquo;</a>
 	</section>
 
 	<section class="inner work">
 		<h2>Recent Work</h2>
 
-		<a class="work-link" href="/projects/gosquared-for-pebble">
-			<div class="piece pebbleGS">
-				<span class="title">GoSquared for Pebble</span>
+		<a class="work-link" href="http://devsdodesign.com">
+			<div class="piece ddd">
+				<span class="title">#DevsDoDesign</span>
 			</div>
 		</a>
 
-		<a class="work-link" href="http://justdelete.me">
-			<div class="piece jdm">
-				<span class="title">just<span class="red">delete</span>.me</span>
+		<a class="work-link" href="/projects/gosquared-for-pebble">
+			<div class="piece pebbleGS">
+				<span class="title">GoSquared for Pebble</span>
 			</div>
 		</a>
 
@@ -44,10 +45,16 @@ layout: home
 				<span class="title">IMDB Downloader</span>
 			</div>
 		</a>
+		
+		<a class="work-link" href="http://justdelete.me">
+			<div class="piece jdm">
+				<span class="title">just<span class="red">delete</span>.me</span>
+			</div>
+		</a>
 
 		<a class="work-link" href="http://github.com/rmlewisuk/is-available">
 			<div class="piece isav">
-				<span class="title">> Is Available</span>
+				<span class="title">&gt; Is Available</span>
 			</div>
 		</a>
 
@@ -57,13 +64,13 @@ layout: home
 			</div>
 		</a>
 
-		<a class="work-link" href="http://xrmpartners.co.uk">
+		<!-- <a class="work-link" href="http://xrmpartners.co.uk">
 			<div class="piece xrm">
 				<span class="title">XRM Partners</span>
 			</div>
-		</a>
+		</a> -->
 
-		<p><a href="/portfolio">View More &raquo;</a></p>
+		<p><a href="/portfolio">Portfolio &raquo;</a></p>
 	</section>
 	
 </section>
