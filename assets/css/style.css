@@ -304,14 +304,9 @@ footer {
 	padding: 20px 0;
 	border-top: 2px solid #f1f1f1;
 	border-bottom: 2px solid #f1f1f1;
-	font-size: 90%;
+	font-size: 80%;
+	text-align: center;
 }
-	.byline img {
-		border-radius: 40px;
-		float: left;
-		border: 2px solid #db3a79;
-		margin-right: 10px;
-	}
 
 .meta {
 	font-weight: bold;
