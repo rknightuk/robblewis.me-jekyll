@@ -15,4 +15,4 @@ To manually add the widget, select the "Do-It-Yourself" widget and set the panel
 
 Or visit this page on your iPad and press the button below:
 
-<p class="button"><a href="">Add to Status Board</a></p>
+<p class="button"><a href="panicboard://?url=http%3A%2F%2Frobblewis.me%2Fprojects%2Fgithub-status-board%2Fwidget%2F&panel=diy">Add to Status Board</a></p>
