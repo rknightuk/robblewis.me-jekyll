@@ -19,9 +19,6 @@ blockquote {
 	color: #808080;
 	font-style: italic;
 }
-	blockquote p {
-		font-size: 1.2em;
-	}
 
 pre {
 	width: 90%;
