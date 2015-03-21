@@ -1,5 +1,5 @@
 ---
-title: Everything is Not Awesome
+title: UltraViolet: Everything is Not Awesome
 permalink: /ultraviolet
 layout: post
 featured: true
