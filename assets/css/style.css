@@ -437,6 +437,8 @@ a.work-block--jdm        { color: #e8e8e8;}
 
 .work-block--pebbleGS    { background-color: #000; color: #fff; }
 
+.work-block--stig         { background-color: #d44645; color: #dadfe1; }
+
 .work-block--imdb        { background-color: #f7ca18; }
 a.work-block--imdb       { color: #3D3D3D; }
 
@@ -449,7 +451,7 @@ a.work-block--imdb       { color: #3D3D3D; }
 
 .work-block--file-lister { background-color: #d2527f; }
 
-.work-block--grade-calc  {}
+.work-block--grade-calc  {  }
 
 .work-block--bionic      { background-color: #f8a540; }
 
