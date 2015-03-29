@@ -28,7 +28,7 @@ git clone $REPO $TMP_GIT_CLONE
 cp -rp $TMP_GIT_CLONE/* $PUBLIC_DIR
 rm -rf $TMP_GIT_CLONE
 ```
-Then add the remote to your local repo.
+Make sure to create the public directory if it doesn't already exist. Then add the remote to your local repo.
 
 ```
 git remote add live ssh@server:/root/repos/project-name
