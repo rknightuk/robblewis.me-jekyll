@@ -77,16 +77,8 @@ img {
 	padding: 3px 8px;
 	color: #fff;
 	margin-left: 0;
-	border-radius: 0;
-	-webkit-transition: all 0.5s ease;
-    	    transition: all 0.5s ease;
+	border-radius: 25px;
 }
-
-	.logomark:hover {
-		border-radius: 25px;
-		-webkit-transition: all 0.5s ease;
-    	        transition: all 0.5s ease;
-	}
 
 	.logomark a:link,
 	.logomark a:active,
@@ -307,8 +299,19 @@ footer {
 
 .blog-index h2 {
 	font-size: 1.5em;
+	margin-bottom: -10px;
 }
 	.blog-index h2 a { line-height: 1.5em; }
+	
+	@media screen and (max-width: 750px) {
+		.blog-index h2 {
+			font-size: 1.1em;
+		}
+		
+		.blog-index article p {
+			font-size: 0.9em;
+		}
+	}
 
 .date { color: #c4c4c4; }
 
