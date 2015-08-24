@@ -10,6 +10,6 @@ excerpt: "A new podcast by John Voorhees and myself"
 
 > A podcast about the opportunities and challenges that technology presents us with every day
 
-This might change in the future (podcasts are harder than they seem) but for now we'll be talking how technology helps solve problems, as well as some non-tech related topics like terrible food, and why you would save a pair of shoes for 10 years.
+This might change in the future (podcasts are harder than they seem) but for now we'll be talking about how technology helps solve problems, as well as some non-tech related topics like terrible food, and why you would save a pair of shoes for 10 years.
 
 You can subscribe and listen to the first episode at [http://ruminatepodcast.com/1](http://ruminatepodcast.com/1) and follow us on Twitter [@ruminatepodcast](http://twitter.com/ruminatepodcast).
