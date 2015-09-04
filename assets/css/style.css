@@ -365,6 +365,10 @@ dd {
 		border-bottom: none;
 	}
 
+.deprecated {
+	color: red;
+}
+
 /* Work block */
 
 .work-block {
