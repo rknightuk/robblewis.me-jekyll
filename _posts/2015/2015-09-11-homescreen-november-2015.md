@@ -5,7 +5,7 @@ layout: post
 excerpt: "My iPhone homescreen as of September 2015. This post orignally appeared in the MacStories newsletter."
 ---
 
-*My iPhone homescreen as of September 2015. This post orignally appeared in the [MacStories newsletter](https://www.macstories.net/club/).*
+*My iPhone homescreen as of September 2015. This post orignally appeared in the [MacStories newsletter (now Club MacStories)](https://www.macstories.net/club/).*
 
 <a target="_blank" href="/assets/img/posts/homescreen-september-2015.jpg"><img style="float:left;padding:10px;" src="/assets/img/posts/homescreen-september-2015.jpg" width="250" height="auto"></a>
 
