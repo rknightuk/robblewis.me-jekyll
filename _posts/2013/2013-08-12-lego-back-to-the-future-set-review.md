@@ -7,6 +7,8 @@ layout: post
 excerpt: My review of the fourth Lego Cuusoo set, Back to The Future.
 ---
 
+![](http://rmlewisuk.s3.amazonaws.com/lego-back-to-the-future-set-review.png)
+
 I _love_ Back to The Future. I even have a [DeLorean tattoo](http://instagram.com/p/HZnNqHMrQx/). Back in December of last year, [Lego announced that ](http://blog.lego.cuusoo.com/2012-12-20/results-of-the-summer-lego-review/) that they were going to be making a Back to The Future themed set. On Saturday my Back to The Future Lego set arrived and I opened it like a kid on Christmas morning.
 
 The set has 401 pieces, plus the usual random selection of spares, and a _huge_ instruction manual. A majority of the manual is to construct the DeLorean from the first film with the last few pages showing the modifications needed to make the other two versions. You get both the “OUTATIME” licence plate as well as the barcode one from the future. 

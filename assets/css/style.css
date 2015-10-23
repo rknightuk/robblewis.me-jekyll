@@ -433,3 +433,8 @@ button {
 button:hover {
 	background: none repeat scroll 0 0 #2f2f2f;
 }
+
+.blog-post img {
+	margin: 0 auto;
+	display: block;
+}

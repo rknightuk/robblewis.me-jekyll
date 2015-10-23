@@ -7,7 +7,7 @@ excerpt: "My iPhone homescreen as of September 2015. This post orignally appeare
 
 *My iPhone homescreen as of September 2015. This post orignally appeared in the [MacStories newsletter (now Club MacStories)](https://www.macstories.net/club/).*
 
-<a target="_blank" href="/assets/img/posts/homescreen-september-2015.jpg"><img style="float:left;padding:10px;" src="/assets/img/posts/homescreen-september-2015.jpg" width="250" height="auto"></a>
+<a target="_blank" href="http://rmlewisuk.s3.amazonaws.com/homescreen-september-2015.jpg"><img style="float:left;padding:10px;" src="http://rmlewisuk.s3.amazonaws.com/homescreen-september-2015.jpg" width="250" height="auto"></a>
 
 I like to try and keep all of my apps on one page, hence the large number of folders. In the fight between quick access to apps and tidiness, tidiness always wins. Having said that, I do still like to keep my most used apps one tap away. The empty bottom row is used primarly for apps that I'm trying out which, at the moment, happens to be [BuzzFeed News](https://itunes.apple.com/gb/app/bf-news/id981609476?mt=8&at=1001l3gY&ct=blog).
 

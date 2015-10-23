@@ -21,7 +21,7 @@ If you’re not familiar with Hazel, it’s a preference pane for Mac that monit
 
 To setup automatic renaming, open Hazel, select the folder where your TV shows download to, then add a new rule. Obviously rules will entirely depend on the type of files you choose to download but personally I set Hazel to find any files that have the extension _mkv_, _avi_ or _mp4_. Then choose to run a shell script on the matched files and choose _“embedded script”_.
 
-![Hazel Screenshot](/assets/img/posts/automatically-rename-tv-shows-with-hazel-and-tvnamer-sshot.png)
+![Hazel Screenshot](http://rmlewisuk.s3.amazonaws.com/automatically-rename-tv-shows-with-hazel-and-tvnamer-sshot.png)
 
 Select edit script and paste in the following:
     

@@ -35,7 +35,7 @@ We have been tracking visitor numbers with [GoSquared](https://www.gosquared.com
 
 We’ve had visitors from at least 150 countries with United States, Germany and Italy making up the top three. Here’s a chart showing the last 10 day’s visitors, uniques and page views:
 
-![chart_1](/assets/img/posts/just-delete-me-one-million-page-views-chart.png)
+![chart_1](http://rmlewisuk.s3.amazonaws.com/just-delete-me-one-million-page-views-chart.png)
 
 Some other random snippets of information about the site:
 
