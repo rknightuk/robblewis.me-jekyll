@@ -33,10 +33,10 @@ layout: page
 - [Bionic Drink Generator](/projects/bionicdrink)
 - [Weighted Grade Calc](http://code.robblewis.me/weighted-grade-calculator/)
 - [BTTF Drinking Game](/projects/back-to-the-future-drinking-game)
-- [5 Minute Forklet](/projects/5minforklet)
 - [File Lister](http://github.com/rmlewisuk/file-lister)
 - [GoSquared for Pebble](/projects/gosquared-for-pebble)
 - [Is Available](http://github.com/rmlewisuk/is-available)
+- [5 Minute Forklet](https://github.com/rmlewisuk/5minforklet)
 
 ## Misc Resources
 
