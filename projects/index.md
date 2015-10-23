@@ -24,7 +24,7 @@ layout: page
     - A list of direct links to delete your accounts from web services.
 - [GitHub Pages View Source for Chrome](https://chrome.google.com/webstore/detail/github-pages-view-source/eboipoomjlbpkfmmiicfgmclghepgbbk)
     - Add a "view source on GitHub" button to the Chrome omnibar to sites hosting on GitHub pages.
-- [IMDB Downloader for Chrome](/projects/movie-downloader-chrome)
+- [IMDB Downloader for Chrome](https://chrome.google.com/webstore/detail/movie-downloader-for-imdb/dinhogfacedcmkmbkidnlcchcoanjgma)
     - Add YIFY torrent links to IMDB movie, actor and watchlist pages.
 - [Stig Quote Generator](http://code.robblewis.me/stig-quotes/)
 - [GitHub for Status Board](/projects/github-status-board)
