@@ -28,7 +28,8 @@ layout: page
     - Add YIFY torrent links to IMDB movie, actor and watchlist pages.
 - [Stig Quote Generator](http://code.robblewis.me/stig-quotes/)
 - [GitHub for Status Board](/projects/github-status-board)
-- [Pebble Watchfaces](/projects/pebble)
+- [GoSquared for Pebble](https://github.com/rmlewisuk/gosquared-for-pebble)
+- [Pebble Watchfaces](https://github.com/rmlewisuk/pebble-faces)
 - [Email to Spam for Chrome](https://github.com/rmlewisuk/email-to-spam)
 - [Bionic Drink Generator](/projects/bionicdrink)
 - [Weighted Grade Calc](http://code.robblewis.me/weighted-grade-calculator/)
