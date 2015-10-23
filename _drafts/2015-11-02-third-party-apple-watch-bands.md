@@ -13,4 +13,8 @@ I haven't seen the Hermès band in real life so I can only compare against photo
 
 ### Blue Sport Band (£5)
 
-After trying the leather cuff and seeing how cheap it felt, I was surprised to find that the sport band from the same seller felt pretty good. The design is identical in every way to the offical version and feels more or less the same when wearing it. The only difference between this one and the Apple version is that Apple's feels thicker and sturdier.
+After trying the leather cuff and seeing how cheap it felt, I was surprised to find that the sport band from the same seller felt pretty good. The design is identical in every way to the offical version and feels more or less the same when wearing it. The only noticeable difference between this one and the Apple version is that Apple's feels thicker and sturdier.
+
+### Black Milanese (£20)
+
+Apple only makes the Milanese loop milanese loop in one colour, so for someone like me with the space grey watch, my only option for a milanese loop is third party. 
