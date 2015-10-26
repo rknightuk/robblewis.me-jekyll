@@ -34,7 +34,7 @@ layout: page
 - [Email to Spam for Chrome](https://github.com/rmlewisuk/email-to-spam)
 - [Bionic Drink Generator](/projects/bionicdrink)
 - [Weighted Grade Calc](http://code.robblewis.me/weighted-grade-calculator/)
-- [BTTF Drinking Game](/projects/back-to-the-future-drinking-game)
+- [Back to the Future Drinking Game](http://code.robblewis.me/back-to-the-future-drinking-game/)
 - [File Lister](http://github.com/rmlewisuk/file-lister)
 - [Is Available](http://github.com/rmlewisuk/is-available)
 - [5 Minute Forklet](https://github.com/rmlewisuk/5minforklet)
