@@ -42,5 +42,4 @@ layout: page
 ## Misc Resources
 
 - [The Pros and Cons of Social Networking Sites](/projects/the-pros-and-cons-of-social-networking-sites)
-- [My Social Media Rules](/projects/social)
 - [University Personal Statement](/projects/university-personal-statement)
