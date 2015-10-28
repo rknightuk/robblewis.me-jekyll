@@ -5,7 +5,7 @@ layout: post
 excerpt: "A review of some third-party replicas of Apple's wacth bands"
 ---
 
-When I first saw the [Hermès Cuff for Apple Watch](http://www.apple.com/pr/library/2015/09/09Apple-and-Herm-s-Unveil-the-Apple-Watch-Herm-s-Collection.html) I thought it looked like a great wacth band but also knew that there was no way I was going to pay upwards of a thousand pounds for one. So I kept an eye on eBay, looking for third party manufacturers making similar bands. These became available for purchase about a month after the announcement so I decided to order one. The seller also had some other copies of Apples bands and I ordered a blue sport band, and a black Milanese loop as well as a pair of black adaptors to better match my space grey sport watch.
+When I first saw the [Hermès Cuff for Apple Watch](http://www.apple.com/pr/library/2015/09/09Apple-and-Herm-s-Unveil-the-Apple-Watch-Herm-s-Collection.html) I thought it looked like a great wacth band but also knew that there was no way I was going to pay upwards of a thousand pounds for one. So I kept an eye on eBay, looking for third party manufacturers making similar bands. These became available for purchase about a month after the announcement so I decided to order one. The seller also had some other copies of Apple's bands and I ordered a blue sport band, a black Milanese loop, as well as a pair of black adaptors to better match my space grey sport watch.
 
 ### Leather Cuff (£20)
 
@@ -13,8 +13,8 @@ I haven't seen the Hermès band in real life so I can only compare against photo
 
 ### Blue Sport Band (£5)
 
-After trying the leather cuff and seeing how cheap it felt, I was surprised to find that the sport band from the same seller felt pretty good. The design is identical in every way to the offical version and feels more or less the same when wearing it. The only noticeable difference between this one and the Apple version is that Apple's feels thicker and sturdier.
+After trying the leather cuff and seeing how cheap it felt, I was surprised to find that the sport band from the same seller felt great. The design is identical in every way to the offical version and feels more or less the same when wearing it. The only noticeable difference between this one and the Apple version is that Apple's feels a little bit thicker and sturdier. It's just as comfy as Apple's and at £5, it's a bargain.
 
 ### Black Milanese (£20)
 
-Apple only makes the Milanese loop milanese loop in one colour, so for someone like me with the space grey watch, my only option for a milanese loop is third party. 
+Apple only makes the Milanese loop milanese loop in one colour, so for someone like me with the space grey watch, my only option for a milanese loop is third party. The band I ordered is confortable, but it *does* feel like it costs. There are some more expensive options available but I can't speak for how these compare to this one. The magnet is strong, the build quality of the band itself is reasonably good. If this was the only band I was going to wear, I might consider buying a more expensive one, or Apple's one but for smarter option to the sport bands, this is pretty good.
