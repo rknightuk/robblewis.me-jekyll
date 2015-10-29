@@ -12,7 +12,7 @@ When we discussing starting Ruminate, we had two requirements:
 1. Managing the podcast needs to be as simple as possible.
 2. It needs to sound good.
 
-1
+Having discussed a few options with [Myke Hurley](http://twitter.com/imyke) we came to conclusion that [Simplecast](https://simplecast.fm/) would be the best option. They host the website, manage the rss feed, offer good statistics, and have reasonable pricing.
 
 - Simplecast
 - Domain
