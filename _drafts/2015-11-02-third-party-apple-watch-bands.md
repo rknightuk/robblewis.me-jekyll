@@ -11,10 +11,12 @@ When I first saw the [Hermès Cuff for Apple Watch](http://www.apple.com/pr/libr
 
 I haven't seen the Hermès band in real life so I can only compare against photos but this band is more or less identical in design to the Hermès version. But as you might imagine, it feels cheap. The leather is pretty thin, not particularly soft, and it's generally uncomfortable to wear. The buckle feels like a toy from a Christmas cracker. There are some third party version that are around the £100 mark that would likely not have these issues but something I did notice whilst wearing the band, is that because of the way the band is designed my Apple Watch sits significantly higher on my wrist then when I using a sport band. I found this to be annoying and it's possible that the Hermès version has the same problem.
 
+### Black Milanese (£20)
+
+Apple only makes the Milanese loop milanese loop in one colour, so for someone like me with the space grey watch, my only option for a milanese loop is third party. The band I ordered is confortable, but it *does* feel like it costs. There are some more expensive options available but I can't speak for how these compare to this one. The magnet is strong, but the materials used for the band itself just aren't that great and can get unconfortable with continued use.
+
 ### Blue Sport Band (£5)
 
 After trying the leather cuff and seeing how cheap it felt, I was surprised to find that the sport band from the same seller felt great. The design is identical in every way to the offical version and feels more or less the same when wearing it. The only noticeable difference between this one and the Apple version is that Apple's feels a little bit thicker and sturdier. It's just as comfy as Apple's and at £5, it's a bargain.
 
-### Black Milanese (£20)
-
-Apple only makes the Milanese loop milanese loop in one colour, so for someone like me with the space grey watch, my only option for a milanese loop is third party. The band I ordered is confortable, but it *does* feel like it costs. There are some more expensive options available but I can't speak for how these compare to this one. The magnet is strong, the build quality of the band itself is reasonably good. If this was the only band I was going to wear, I might consider buying a more expensive one, or Apple's one but for smarter option to the sport bands, this is pretty good.
+I think, as usual, [Myke was right](http://www.relay.fm/upgrade/56). I'm going to stick to sport bands for the forseeable future. They're much more confortable to wear for an extended period and that's more important to me than anything else.
