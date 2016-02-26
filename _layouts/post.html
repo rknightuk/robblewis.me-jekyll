@@ -1,38 +1,24 @@
 {% include header.html %}
 
-<section class="block primary">
-    <header class="inner">
+    <h1>{{ page.title }}</h1>
 
-        <h1 class="post-heading">{{ page.title }}</h1>
+    <h2 class="subtitle">{{ page.date | date: "%A %d %B, %Y" }}</h2>
 
-        <p class="meta {% unless page.image_credit %}no-image{% endunless %}">
-            <span class="timing">
-                {{ page.date | date: "%A %d %B, %Y" }}<br>
-            </span>
-        </p>
-        
-    </header>
-</section>
+	{{ content }}
 
-<section class="block secondary">
-	<section class="inner blog-post" role="main">
-		{{ content }}
+	{% if page.link %}
+		<p>&infin; <a class="link" href="{{ page.link }}">{{ page.link-title }} &rarr;</a></p>
+	{% endif %}
 
-		{% if page.link %}
-    		<p>&infin; <a class="link" href="{{ page.link }}">{{ page.link-title }} &raquo;</a></p>
+	<p class="byline">This weblog has no comments. If you want to discuss this post or anything else contact me <a href="http://twitter.com/rmlewisuk">on&nbsp;Twitter (@rmlewisuk)</a> or <a href="/contact">email me</a>.</p>
+
+    <p>
+    	{% if page.previous %}
+    		<a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
     	{% endif %}
-
-    	<p class="byline">This weblog has no comments. If you want to discuss this post or anything else contact me <a href="http://twitter.com/rmlewisuk">on&nbsp;Twitter (@rmlewisuk)</a> or <a href="/contact">email me</a>.</p>
-
-        <p>
-        	{% if page.previous %}
-        		<a href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-        	{% endif %}
-        	{% if page.next %}
-        		<a class="next post" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-        	{% endif %}
-        </p>
-	</section>
-</section>
+    	{% if page.next %}
+    		<a class="next post" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    	{% endif %}
+    </p>
 
 {% include footer.html %}

@@ -3,44 +3,92 @@ title: "Robb Lewis"
 layout: home
 ---
 
-<section class="block primary">
-	<header class="inner intro">
-		
-		<img src="/assets/img/avatar_170.jpg" width="170" height="170" alt="Robb Lewis Avatar">
+<h1>About</h1>
+<h2 class="subtitle">The intro bit</h2>
 
-		<p>Hi, I&#8217;m Robb Lewis, a developer at <a href="http://radweb.co.uk">Radweb</a> and founding member of <a href="http://devsdodesign.com">#DevsDoDesign</a>.</p><p>You can see <a href="/projects">some of my work</a>, view my code <a href="http://github.com/rmlewisuk">on Github</a>, say hi <a href="http://twitter.com/rmlewisuk">on&nbsp;Twitter</a> or <a href="/contact">drop me an email</a>.</p>
+<p>I'm a developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">Inventory Base</a> and other products. I'm a founding member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team. I also do <a href="http://ruminatepodcast.com">a podcast</a> with <a href="http://johnvoorhees.co">John Voorhees</a>, write <a href="http://studs.me">a Lego blog</a>, and work on <a href="/projects">a number of other projects</a> in my spare time.</p>
 
-	</header>
-</section>
+<h1>Projects</h1>
+<h2 class="subtitle">The look at what I made bit — <a href="blog">All projects</a></h2>
 
-<section class="block secondary">
-	<section class="inner blog-posts">
-		<h2>Recent Posts</h2>
-		<ul>
-			{% for post in site.posts limit: 3 %}
-				<li><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }}</a></li>
-				<blockquote>{{ post.excerpt }}</blockquote>
-			{% endfor %}
-		</ul>
-		<a href="/blog">All posts &raquo;</a>
-	</section>
+<div class="grid">
+	<div class="unit half projects__single">
+		<a href="http://ruminatepodcast.com" class="unit whole projects__inner ruminate">
+			<span class="projects__info">
+				Ruminate
+				<br>
+				<span class="projects__title">
+					A podcast about what's on our minds
+				</span>
+			</span>
+		</a>
+	</div>
+	<div class="unit half projects__single">
+		<a href="http://devsdodesign.com" class="unit whole projects__inner devsdodesign">
+			<span class="projects__info">
+				#DevsDoDesign
+				<br>
+				<span class="projects__title">
+					A multi-award winning hackathon team
+				</span>
+			</span>
+		</a>
+	</div>
+</div>
+<div class="grid">
+	<div class="unit one-quarter projects__single">
+		<a href="http://studs.me" class="unit whole projects__inner studs">
+			<span class="projects__info">
+				Studs
+				<br>
+				<span class="projects__title">
+					A Lego blog
+				</span>
+			</span>
+		</a>
+	</div>
+	<div class="unit half projects__single">
+		<a href="http://justdelete.me" class="unit whole projects__inner justdeleteme">
+			<span class="projects__info">
+				JustDelete.me
+				<br>
+				<span class="projects__title">
+					Direct links to delete your accounts
+				</span>
+			</span>
+		</a>
+	</div>
+	<div class="unit one-quarter projects__single">
+		<a href="http://github.com/rmlewisuk" class="unit whole projects__inner github">
+			<span class="projects__info">
+				GitHub
+				<br>
+				<span class="projects__title">
+					Open source
+				</span>
+			</span>
+		</a>
+	</div>
+</div>
 
-	<section class="inner work">
-		<h2>Projects</h2>
+<h1>Latest Posts</h1>
+<h2 class="subtitle">The things I've written bit — <a href="blog">All posts</a></h2>
 
-		<ul>
-			<li><a href="http://www.ruminatepodcast.com/">Ruminate Podcast</a>
-				<ul><li>A fortnightly podcast about the opportunities and challenges that technology presents us with every day.</li></ul></li>
-			<li><a href="http://justdelete.me">Just Delete Me</a>
-				<ul><li>A list of direct links to delete your accounts from web services.</li></ul></li>
-			<li><a href="https://chrome.google.com/webstore/detail/github-pages-view-source/eboipoomjlbpkfmmiicfgmclghepgbbk">GitHub Pages View Source for Chrome</a>
-				<ul><li>Add a &quot;view source on GitHub&quot; button to the Chrome omnibar to sites hosting on GitHub pages.</li></ul></li>
-			<li><a href="/projects/movie-downloader-chrome">IMDB Downloader for Chrome</a>
-				<ul><li>Add YIFY torrent links to IMDB movie, actor and watchlist pages.</li></ul>
-			</li>
-		</ul>
+<ul class="blog-posts__list">
+	{% for post in site.posts limit: 3 %}
+		<li class="blog-posts__list__item">
+			<h2><a href="{{ post.url }}" class="blog-posts__list__item__title">{{ post.title}}</a></h2>
+			<p class="blog-posts__list__item__subtitle subtitle">{{ post.date | date: "%A %d %B, %Y" }}</p>
+		</li>
+	{% endfor %}
+</ul>
 
-		<p><a href="/projects">More projects &raquo;</a></p>
-	</section>
-	
-</section>
+<h1>Social</h1>
+<h2 class="subtitle">The other places bit</h2>
+
+<ul>
+	<li>I tweet links, sarcasm, and Hot Takes™ on Twitter as <a href="https://twitter.com/rmlewisuk">@rmlewisuk</a></li>
+	<li>I post Lego photos sporadically <a href="https://www.flickr.com/photos/rmlewisuk">on Flickr</a> and save interesting Lego models and ideas to <a href="https://pinterest.com/rmlewisuk/lego/">Pinterest</a>.</li>
+	<li>I push most of the code I write to <a href="https://github.com/rmlewisuk">GitHub</a></li>
+	<li>I'm around on other places as <em>rmlewisuk</em></li>
+</ul>

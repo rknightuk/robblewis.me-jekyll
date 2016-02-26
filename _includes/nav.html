@@ -1,21 +1,12 @@
-<nav role="navigation">
-	<section>
-		<div class="logomark"><a href="/">RL</a></div>
-		<div class="menu">
-			<ul>
-				<li {% if page.path == 'index.html' %} class="current" {% endif %}>
-					<a href="/">Home</a>
-				</li>
-				<li {% if page.layout == 'post' or page.path contains 'blog/' %} class="current" {% endif %}>
-					<a  href="/blog">Blog</a>
-				</li>
-				<li {% if page.path contains 'projects/' %} class="current" {% endif %}>
-					<a href="/projects">Projects</a>
-				</li>
-				<li {% if page.path contains 'contact/index' %} class="current" {% endif %}>
-					<a href="/contact">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</section>
-</nav>
+<div class="full">
+	<header class="grid wrap" style="text-align: center;">
+		<h1>Robb Lewis</h1>
+		
+		<nav class="main-navigation">
+			<a href="/" {% if page.path == 'index.html' %} class="active" {% endif %}>Home</a>
+			<a href="/blog" {% if page.layout == 'post' or page.path contains 'blog/' %} class="active" {% endif %}>Blog</a>
+			<a href="/projects" {% if page.path contains 'projects/' %} class="active" {% endif %}>Projects</a>
+			<a href="/contact" {% if page.path contains 'contact/index' %} class="active" {% endif %}>Contact</a>
+		</nav>
+	</header>
+</div>

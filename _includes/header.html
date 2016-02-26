@@ -3,7 +3,6 @@
 
 	<head>
 		
-		<!-- Digital Ocean 2 -->
 		<title>{{ site.name }} &raquo; {{ page.title }}</title>
 		
 		<meta charset="UTF-8">
@@ -33,13 +32,9 @@
 		<link rel="author" href="/humans.txt" />
 		<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/assets/css/gridism.css" />
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-		<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-		
-    	{% if page.title == 'Movie Downloader Chrome Extension' %}
-    		<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/dinhogfacedcmkmbkidnlcchcoanjgma">
-    	{% endif %}
 
     	<!-- GoSquared -->
     	<script>
@@ -56,3 +51,5 @@
 	<body>
 
 		{% include nav.html %}
+
+		<div class="wrap grid content">
