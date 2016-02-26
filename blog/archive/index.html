@@ -16,5 +16,5 @@ layout: page
 		{% endif %}
 	{% endunless %}
 
-<p><span class="date">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }}</a></p>
+<p><span class="subtitle">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endfor %}
