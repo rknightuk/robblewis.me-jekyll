@@ -26,6 +26,8 @@ layout: page
     - Add a "view source on GitHub" button to the Chrome omnibar to sites hosting on GitHub pages.
 - [IMDB Downloader for Chrome](https://chrome.google.com/webstore/detail/movie-downloader-for-imdb/dinhogfacedcmkmbkidnlcchcoanjgma)
     - Add YIFY torrent links to IMDB movie, actor and watchlist pages.
+- [Local or Live](https://chrome.google.com/webstore/detail/local-or-live/jkaaaiinegnfdfimdmmppljjomlidnlo)
+    - Add a banner to sites to indicate whether it's local or live.
 - [Stig Quote Generator](http://code.robblewis.me/stig-quotes/)
 - [Matt Bot or Not?](http://code.robblewis.me/mattbotornot/)
 - [GitHub for Status Board](/projects/github-status-board)
