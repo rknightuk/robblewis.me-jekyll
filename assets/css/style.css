@@ -131,6 +131,7 @@ nav a { margin: 0 10px; }
 .projects__inner.ruminate { background-image:url('/assets/img/home/ruminate.png'); }
 .projects__inner.github { background-image:url('/assets/img/home/github.jpg'); }
 .projects__inner.g2b { background-image:url('/assets/img/home/guidetobricklink.jpg'); }
+.projects__inner.chrome { background-image:url('/assets/img/home/chrome-extensions.jpg'); }
 
 .projects__inner:hover > .projects__info { color: #FF6330; }
 
