@@ -15,19 +15,28 @@ layout: page
 - [Knockoffia](http://knockoffia.devsdodesign.com/)
     - Winner, [Pub Hack #4](https://twitter.com/rmlewisuk/status/614169436191346688): Most Likely to Receive a Lawsuit.
 
-## Side Projects
+## Current Projects
 
-- [Code on GitHub](https://github.com/rmlewisuk)
 - [Ruminate Podcast](http://www.ruminatepodcast.com/)
     - A fortnightly podcast about the opportunities and challenges that technology presents us with every day.
 - [Just Delete Me](http://justdelete.me)
     - A list of direct links to delete your accounts from web services.
+- [Guide to Bricklink](http://guidetobricklink.com/)
+    - A complete guide to buying from Bricklink 
+
+<h2 id="chrome">Chrome Extensions</h2>
+
 - [GitHub Pages View Source for Chrome](https://chrome.google.com/webstore/detail/github-pages-view-source/eboipoomjlbpkfmmiicfgmclghepgbbk)
     - Add a "view source on GitHub" button to the Chrome omnibar to sites hosting on GitHub pages.
 - [IMDB Downloader for Chrome](https://chrome.google.com/webstore/detail/movie-downloader-for-imdb/dinhogfacedcmkmbkidnlcchcoanjgma)
     - Add YIFY torrent links to IMDB movie, actor and watchlist pages.
 - [Local or Live](https://chrome.google.com/webstore/detail/local-or-live/jkaaaiinegnfdfimdmmppljjomlidnlo)
     - Add a banner to sites to indicate whether it's local or live.
+
+## Back Catalogue
+
+[View everything on GitHub](https://github.com/rmlewisuk)
+
 - [Stig Quote Generator](http://code.robblewis.me/stig-quotes/)
 - [Matt Bot or Not?](http://code.robblewis.me/mattbotornot/)
 - [GitHub for Status Board](/projects/github-status-board)
