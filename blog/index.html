@@ -2,33 +2,24 @@
 title: The Robb Blog
 layout: page
 section_class: blog-index
-subheading: '<a href="/blog/archive">View the archive</a>'
 ---
-<h2 class="subtitle"><a href="/blog/archive">Full Archive</a></h2>
 
-<ul class="blog-posts__list">
+<div class="blog-post-list">
+	{% for post in site.posts %}
 
-{% for post in paginator.posts %}
-	
-	<li class="blog-posts__list__item">
-		<h2><a href="{{ post.url }}" class="blog-posts__list__item__title">{{ post.title}}</a></h2>
-		<p class="blog-posts__list__item__subtitle subtitle">{{ post.date | date: "%A %d %B, %Y" }}</p>
-	</li>
+		{% unless post.next %}
+			<h2>{{ post.date | date: '%Y' }}</h2>
+		{% else %}
+			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			
+			{% if year != nyear %}
+				<h2>{{ post.date | date: '%Y' }}</h2>
+			{% endif %}
+		{% endunless %}
 
-{% endfor %}
-
-</ul>
-    
-{% if paginator.next_page %} 
-	<a href="/blog/page/{{ paginator.next_page }}/" title="Next Page">&laquo; Older posts</a>
-{% endif %} 
-
-{% if paginator.previous_page %}
-	{% if paginator.previous_page == 1 %}
-		<a class="next" href="/blog" title="Previous Page">Newer posts &raquo;</a>
-	{% else %}
-		<a class="next" href="/blog/page/{{ paginator.previous_page }}/" title="Previous Page">Newer posts &raquo;</a>
-	{% endif %}
-{% endif %}
+	<p><span class="subtitle">{{ post.date | date: "%d/%m" }} </span><a href="{{ post.url }}">{{ post.title }}</a></p>
+	{% endfor %}
+</div>
 
 </section>

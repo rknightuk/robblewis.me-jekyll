@@ -153,3 +153,12 @@ nav a { margin: 0 10px; }
     font-size: 80%;
     font-style: italic;
 }
+
+.blog-post-list p {
+	margin: 5px;
+}
+
+.blog-post img {
+	margin: 0 auto;
+	display: block;
+}

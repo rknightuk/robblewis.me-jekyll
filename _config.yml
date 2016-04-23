@@ -1,24 +1,8 @@
-# meta
-name: Robb Lewis
-author: Robb Lewis
-url: http://robblewis.me
+# Site settings
+title: Robb Lewis
 description: "Robb Lewis developer in Portsmouth, UK. Blogs about technology, development and the web."
+baseurl: ""
+url: "http://robblewis.me"
 
-# pages
-permalink: /:title
-paginate: 15
-paginate_path: "blog/page/:num"
-relative_permalinks: true
-
-# config
-markdown: redcarpet
-highlighter: pygments
-
-# rss
-copyright: 2014
-rss_path: /
-rss_name: rss.xml
-rss_post_limit: 100
-
-# gems
-gems: [jekyll-timeago]
+# Build settings
+markdown: kramdown
