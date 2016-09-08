@@ -4,6 +4,7 @@
 		
 		<nav class="main-navigation">
 			<a href="/" {% if page.path == 'index.html' %} class="active" {% endif %}>Home</a>
+			<a href="http://ruminatepodcast.com">Podcast</a>
 			<a href="/blog" {% if page.layout == 'post' or page.path contains 'blog/' %} class="active" {% endif %}>Blog</a>
 			<a href="/projects" {% if page.path contains 'projects/' %} class="active" {% endif %}>Projects</a>
 			<a href="/contact" {% if page.path contains 'contact/index' %} class="active" {% endif %}>Contact</a>
