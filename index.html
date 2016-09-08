@@ -12,107 +12,96 @@ layout: home
 <h2 class="subtitle">The look at what I made bit — <a href="/projects">All projects</a></h2>
 
 <div class="grid">
-	<div class="unit half projects__single">
-		<a href="http://ruminatepodcast.com" class="unit whole projects__inner ruminate">
-			<span class="projects__info">
-				Ruminate
-				<br>
-				<span class="projects__title">
-					A podcast about what's on our minds
-				</span>
-			</span>
-		</a>
-	</div>
-	<div class="unit half projects__single">
-		<a href="http://devsdodesign.com" class="unit whole projects__inner devsdodesign">
-			<span class="projects__info">
-				#DevsDoDesign
-				<br>
-				<span class="projects__title">
-					A multi-award winning hackathon team
-				</span>
-			</span>
-		</a>
-	</div>
+  <div class="unit half projects__single">
+    <a href="http://ruminatepodcast.com" class="unit whole projects__inner ruminate">
+      <span class="projects__info">
+        Ruminate
+        <br>
+        <span class="projects__title">
+          A podcast about what's on our minds
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="unit half projects__single">
+    <a href="http://devsdodesign.com" class="unit whole projects__inner devsdodesign">
+      <span class="projects__info">
+        #DevsDoDesign
+        <br>
+        <span class="projects__title">
+          A multi-award winning hackathon team
+        </span>
+      </span>
+    </a>
+  </div>
 </div>
 <div class="grid">
-	<div class="unit one-quarter projects__single">
-		<a href="http://studs.me" class="unit whole projects__inner studs">
-			<span class="projects__info">
-				Studs
-				<br>
-				<span class="projects__title">
-					A Lego blog
-				</span>
-			</span>
-		</a>
-	</div>
-	<div class="unit half projects__single">
-		<a href="http://justdelete.me" class="unit whole projects__inner justdeleteme">
-			<span class="projects__info">
-				JustDelete.me
-				<br>
-				<span class="projects__title">
-					Direct links to delete your accounts
-				</span>
-			</span>
-		</a>
-	</div>
-	<div class="unit one-quarter projects__single">
-		<a href="http://github.com/rmlewisuk" class="unit whole projects__inner github">
-			<span class="projects__info">
-				GitHub
-				<br>
-				<span class="projects__title">
-					Open source
-				</span>
-			</span>
-		</a>
-	</div>
+  <div class="unit one-third projects__single">
+    <a href="http://studs.me" class="unit whole projects__inner studs">
+      <span class="projects__info">
+        Studs
+        <br>
+        <span class="projects__title">
+          A Lego blog
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="unit one-third projects__single">
+    <a href="http://github.com/rmlewisuk" class="unit whole projects__inner github">
+      <span class="projects__info">
+        GitHub
+        <br>
+        <span class="projects__title">
+          Open source
+        </span>
+      </span>
+    </a>
+  </div>
+  <div class="unit one-third projects__single">
+    <a href="http://guidetobricklink.com" class="unit whole projects__inner g2b">
+      <span class="projects__info">
+        Guide to Bricklink
+        <br>
+        <span class="projects__title">
+          The complete guide
+        </span>
+      </span>
+    </a>
+  </div>
 </div>
 <div class="grid">
-	<div class="unit two-fifths projects__single">
-		<a href="http://guidetobricklink.com" class="unit whole projects__inner g2b">
-			<span class="projects__info">
-				Guide to Bricklink
-				<br>
-				<span class="projects__title">
-					The complete guide
-				</span>
-			</span>
-		</a>
-	</div>
-	<div class="unit three-fifths projects__single">
-		<a href="/projects#chrome" class="unit whole projects__inner chrome">
-			<span class="projects__info">
-				Chrome Extensions
-				<br>
-				<span class="projects__title">
-					Tiny tools to make life easier
-				</span>
-			</span>
-		</a>
-	</div>
+  <div class="unit whole projects__single">
+    <a href="/projects#chrome" class="unit whole projects__inner chrome">
+      <span class="projects__info">
+        Chrome Extensions
+        <br>
+        <span class="projects__title">
+          Tiny tools to make life easier
+        </span>
+      </span>
+    </a>
+  </div>
 </div>
 
 <h1>Latest Posts</h1>
 <h2 class="subtitle">The things I've written bit — <a href="blog">All posts</a></h2>
 
 <ul class="blog-posts__list">
-	{% for post in site.posts limit: 3 %}
-		<li class="blog-posts__list__item">
-			<h2><a href="{{ post.url }}" class="blog-posts__list__item__title">{{ post.title}}</a></h2>
-			<p class="blog-posts__list__item__subtitle subtitle">{{ post.date | date: "%A %d %B, %Y" }}</p>
-		</li>
-	{% endfor %}
+  {% for post in site.posts limit: 3 %}
+    <li class="blog-posts__list__item">
+      <h2><a href="{{ post.url }}" class="blog-posts__list__item__title">{{ post.title}}</a></h2>
+      <p class="blog-posts__list__item__subtitle subtitle">{{ post.date | date: "%A %d %B, %Y" }}</p>
+    </li>
+  {% endfor %}
 </ul>
 
 <h1>Social</h1>
 <h2 class="subtitle">The other places bit</h2>
 
 <ul>
-	<li>I tweet links, sarcasm, and Hot Takes™ on Twitter as <a href="https://twitter.com/rmlewisuk">@rmlewisuk</a></li>
-	<li>I post Lego photos sporadically <a href="https://www.flickr.com/photos/rmlewisuk">on Flickr</a> and save interesting Lego models and ideas to <a href="https://pinterest.com/rmlewisuk/lego/">Pinterest</a>.</li>
-	<li>I push most of the code I write to <a href="https://github.com/rmlewisuk">GitHub</a></li>
-	<li>I'm around on other places as <em>rmlewisuk</em></li>
+  <li>I tweet links, sarcasm, and Hot Takes™ on Twitter as <a href="https://twitter.com/rmlewisuk">@rmlewisuk</a></li>
+  <li>I post Lego photos sporadically <a href="https://www.flickr.com/photos/rmlewisuk">on Flickr</a> and save interesting Lego models and ideas to <a href="https://pinterest.com/rmlewisuk/lego/">Pinterest</a>.</li>
+  <li>I push most of the code I write to <a href="https://github.com/rmlewisuk">GitHub</a></li>
+  <li>I'm around on other places as <em>rmlewisuk</em></li>
 </ul>

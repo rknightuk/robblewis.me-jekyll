@@ -19,8 +19,6 @@ layout: page
 
 - [Ruminate Podcast](http://www.ruminatepodcast.com/)
     - A fortnightly podcast about the opportunities and challenges that technology presents us with every day.
-- [Just Delete Me](http://justdelete.me)
-    - A list of direct links to delete your accounts from web services.
 - [Guide to Bricklink](http://guidetobricklink.com/)
     - A complete guide to buying from Bricklink 
 
@@ -39,18 +37,9 @@ layout: page
 
 - [Stig Quote Generator](http://code.robblewis.me/stig-quotes/)
 - [Matt Bot or Not?](http://code.robblewis.me/mattbotornot/)
-- [GitHub for Status Board](/projects/github-status-board)
 - [GoSquared for Pebble](https://github.com/rmlewisuk/gosquared-for-pebble)
 - [Pebble Watchfaces](https://github.com/rmlewisuk/pebble-faces)
-- [Email to Spam for Chrome](https://github.com/rmlewisuk/email-to-spam)
-- [Bionic Drink Generator](/projects/bionicdrink)
+- [Bionic Drink Generator](http://code.robblewis.me/bionicdrink/)
 - [Weighted Grade Calc](http://code.robblewis.me/weighted-grade-calculator/)
 - [Back to the Future Drinking Game](http://code.robblewis.me/back-to-the-future-drinking-game/)
-- [File Lister](http://github.com/rmlewisuk/file-lister)
-- [Is Available](http://github.com/rmlewisuk/is-available)
-- [5 Minute Forklet](https://github.com/rmlewisuk/5minforklet)
-
-## Misc Resources
-
-- [The Pros and Cons of Social Networking Sites](/projects/the-pros-and-cons-of-social-networking-sites)
-- [University Personal Statement](/projects/university-personal-statement)
+- [Just Delete Me](http://justdelete.me) <code>[Under new ownership]</code>
