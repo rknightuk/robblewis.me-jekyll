@@ -39,12 +39,7 @@ layout: page
 - [Matt Bot or Not?](http://code.robblewis.me/mattbotornot/)
 - [GoSquared for Pebble](https://github.com/rmlewisuk/gosquared-for-pebble)
 - [Pebble Watchfaces](https://github.com/rmlewisuk/pebble-faces)
-- [Bionic Drink Generator](/projects/bionicdrink)
+- [Bionic Drink Generator](http://code.robblewis.me/bionicdrink/)
 - [Weighted Grade Calc](http://code.robblewis.me/weighted-grade-calculator/)
 - [Back to the Future Drinking Game](http://code.robblewis.me/back-to-the-future-drinking-game/)
 - [Just Delete Me](http://justdelete.me) <code>[Under new ownership]</code>
-
-## Misc Resources
-
-- [The Pros and Cons of Social Networking Sites](/projects/the-pros-and-cons-of-social-networking-sites)
-- [University Personal Statement](/projects/university-personal-statement)
