@@ -13,6 +13,8 @@ Setup is pretty easy using the [Alexa app](https://geo.itunes.apple.com/us/app/a
 
 ### Spotify
 
+**Update**: As [/u/jennorocks pointed out](https://www.reddit.com/r/amazonecho/comments/551frl/my_initial_thoughts_on_the_amazon_echo_uk/d88129p?context=3), if you say the word "playlist" when asking for a playlist, it works pretty well.
+
 I linked my Spotify account in the Alexa app and once setup, I was able to do a two things with it: either tell Alexa to play music on Spotify (playlist, artist, album, genre) or start playing through [Spotify Connect](https://www.spotify.com/us/connect/) which sees the Echo as a device from within the Spotify app. Getting Alexa to play one of my saved playlists was difficult as it seems to just search Spotify and play the first search result. For example, I have a playlist called "90s Hits" but it kept playing a similarly named playlist. I don't know if there's some trick to force it play my playlists, but I haven't found it yet.
 
 ### Bluetooth
