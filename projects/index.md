@@ -35,6 +35,7 @@ layout: page
 
 [View everything on GitHub](https://github.com/rmlewisuk)
 
+- [Who's That Emoji?](http://code.robblewis.me/whos-that-emoji/index.html)
 - [Stig Quote Generator](http://code.robblewis.me/stig-quotes/)
 - [Matt Bot or Not?](http://code.robblewis.me/mattbotornot/)
 - [GoSquared for Pebble](https://github.com/rmlewisuk/gosquared-for-pebble)
