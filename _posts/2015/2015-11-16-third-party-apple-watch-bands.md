@@ -15,7 +15,7 @@ When I first saw the [Hermès Cuff for Apple Watch](http://www.apple.com/pr/libr
 
 I haven't seen the Hermès band in real life so I can only compare against photos but this band is more or less identical in design to the Hermès version. But as you might imagine, it feels cheap. The leather is pretty thin, not particularly soft, and it's generally uncomfortable to wear. The buckle feels like a toy from a Christmas cracker. There are some third party version that are around the £100 mark that would likely not have these issues but something I did notice whilst wearing the band, is that because of the way the band is designed my Apple Watch sits significantly higher on my wrist then when I using a sport band. I found this to be annoying and it's possible that the Hermès version has the same problem.
 
-### Black Milanese (£20)
+### Black Milanese (£20)
 
 [eBay link](http://www.ebay.co.uk/itm/301743856877?_trksid=p2057872.m2749.l2649&var=600570788016&ssPageName=STRK%3AMEBIDX%3AIT)
 
