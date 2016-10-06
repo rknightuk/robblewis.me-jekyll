@@ -7,7 +7,7 @@ excerpt: "The first step to switching to Android: replacing all my apps"
 
 ![](http://rmlewisuk.s3.amazonaws.com/home-screen-tiles.png)
 
-If you [follow me on Twitter](httsp://twitter.com/rmlewisuk), you probably already know I've ditched my iPhone in favour of a [OnePlus 3](https://oneplus.net/uk/3). The biggest hurdle to switching is the apps I used regularly (and some not-so-regularly). After [making a list of apps I had installed](http://rmlewisuk.s3.amazonaws.com/apps.md) on my iPhone, I was able to filter it down to just two lists: ones with no equivalent, and ones I needed to find an Android alternative for. The three with no equivalent were:
+If you [follow me on Twitter](https://twitter.com/rmlewisuk), you probably already know I've ditched my iPhone in favour of a [OnePlus 3](https://oneplus.net/uk/3). The biggest hurdle to switching is the apps I used regularly (and some not-so-regularly). After [making a list of apps I had installed](http://rmlewisuk.s3.amazonaws.com/apps.md) on my iPhone, I was able to filter it down to just two lists: ones with no equivalent, and ones I needed to find an Android alternative for. The three with no equivalent were:
 
 - Apple Store
 - Blink
