@@ -29,7 +29,7 @@ I haven't been able to find anything that is as easy for creating lists as Clear
 
 ![Google Inbox' inline delivery information](http://rmlewisuk.s3.amazonaws.com/google-inbox-inline-delivery.jpg)
 
-I switched to [Google Inbox](https://inbox.google.com) prior to buying the OnePlus and it manages to show delivery tracking inline with the email so I decided I didn't need Deliveries any more. [Dan](https://twitter.com/danharper7) also told me Google Now should tell me about my deliveries based on my email, but I haven't seen that working yet. Google Now also has a reminders feature, which has mostly replaced Due.
+I switched to [Google Inbox](https://inbox.google.com) prior to buying the OnePlus and it manages to show delivery tracking inline with the email so I decided I didn't need Deliveries anymore. [Dan](https://twitter.com/danharper7) also told me Google Now should tell me about my deliveries based on my email, but I haven't seen that working yet. Google Now also has a reminders feature, which has mostly replaced Due.
 
 The stock [Google calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=en_GB) app and widget replaced Fantastical for what I needed with no problems.
 
