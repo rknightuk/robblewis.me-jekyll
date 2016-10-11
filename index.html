@@ -8,6 +8,18 @@ layout: home
 
 <p>I'm a developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a> and other products. I'm a founding member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team. I also do <a href="http://ruminatepodcast.com">a podcast</a> with <a href="http://johnvoorhees.co">John Voorhees</a>, write <a href="http://studs.me">a Lego blog</a>, and work on <a href="/projects">a number of other projects</a> in my spare time.</p>
 
+<h1>Latest Posts</h1>
+<h2 class="subtitle">The things I've written bit — <a href="blog">All posts</a></h2>
+
+<ul class="blog-posts__list">
+  {% for post in site.posts limit: 3 %}
+    <li class="blog-posts__list__item">
+      <h2><a href="{{ post.url }}" class="blog-posts__list__item__title">{{ post.title}}</a></h2>
+      <p class="blog-posts__list__item__subtitle subtitle">{{ post.date | date: "%A %d %B, %Y" }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
 <h1>Projects</h1>
 <h2 class="subtitle">The look at what I made bit — <a href="/projects">All projects</a></h2>
 
@@ -83,18 +95,6 @@ layout: home
     </a>
   </div>
 </div>
-
-<h1>Latest Posts</h1>
-<h2 class="subtitle">The things I've written bit — <a href="blog">All posts</a></h2>
-
-<ul class="blog-posts__list">
-  {% for post in site.posts limit: 3 %}
-    <li class="blog-posts__list__item">
-      <h2><a href="{{ post.url }}" class="blog-posts__list__item__title">{{ post.title}}</a></h2>
-      <p class="blog-posts__list__item__subtitle subtitle">{{ post.date | date: "%A %d %B, %Y" }}</p>
-    </li>
-  {% endfor %}
-</ul>
 
 <h1>Social</h1>
 <h2 class="subtitle">The other places bit</h2>
