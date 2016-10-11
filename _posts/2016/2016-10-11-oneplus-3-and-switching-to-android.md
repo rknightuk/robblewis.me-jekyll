@@ -13,7 +13,7 @@ I wrote about [replacing all my apps on Android](http://robblewis.me/replacing-a
 
 Firstly, I've had a few people ask *why* I switched to Android. There wasn't a single reason but a plethora of little things that started to bug me about iOS. First off, as I [discussed here](http://www.ruminatepodcast.com/30), I'm no longer using iTunes because of how buggy it is when downloading music, as well as it constantly messing up my album artwork. Without iTunes, the only thing locking me into iOS was iMessage and I realised I could live without it. After the "upgrade" to iOS10 a lot of things bugged me about it. In no particular order:
 
-- Pressing notifications would sometimes not opened the related app, they would just disappeare
+- Pressing notifications would sometimes not opened the related app, they would just disappear
 - The feature where it would show Overcast on the lock screen when I plugged my headphones in no longer worked
 - Because iOS10 splits control center into two panels, whenever I opened it to use something it was inevitably on the wrong panel
 - No way to clear all notifications from the lock screen without 3D touch (without swiping down notification center which you can only do from the widget lock screen)
