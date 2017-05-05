@@ -13,4 +13,4 @@ My Hisense TV ([H43M3000](https://hisense.co.uk/electronics/tvs/m3000/43)) recen
 
 Once I restarted the PS4 and TV, HDR was supported (and looked beautiful in [Horizon Xero Dawn](http://media.rbbl.ws/game/2017/05/01/horizon-zero-dawn/)) 🎉.
 
-nb: I have an [original PS4](https://twitter.com/rmlewisuk/status/736500604705591297)so I can't confirm if this TV works with 4K on the PS4 Pro.
+_nb: I have an [original PS4](https://twitter.com/rmlewisuk/status/736500604705591297) so I can't confirm if this TV works with 4K on the PS4 Pro._
