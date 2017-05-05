@@ -5,7 +5,7 @@ layout: post
 excerpt: ""
 ---
 
-My Hisense H43M3000 4K TV recently to support HDR, which is something the PS4 supports for some games. After plugging the console in, the PS4 told me my TV doesn't support HDR but after some playing around with settings and ports I managed to get it to work:
+My Hisense TV ([H43M3000](https://hisense.co.uk/electronics/tvs/m3000/43)) recently received an update to support HDR, which is something the PS4 supports for some games. After plugging the console in, the PS4 told me my TV doesn't support HDR but after some playing around with settings and ports I managed to get it to work:
 
 1. The PS4 must be using either HDMI port 3 or 4
 2. Open the TV settings and go to System then the "HDMI & CEC Function" section
